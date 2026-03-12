@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- removed inline hero-box styles; use shared .glass-card from base.html -->
+
+<div class="glass-card">
+  <h2 class="mb-3">Welcome to the NLP-Based Analysis of Cyber Threats and Vulnerabilities of the Healthcare Ecosystem</h2>
+  <p class="mb-3 small">This system predicts: Threat Category, Severity Score, and Suggested Defense Mechanism</p>
+
+  <a href="{% url 'upload_test_dataset' %}" class="btn btn-gradient btn-lg">Start Prediction</a>
+</div>
+{% endblock %}

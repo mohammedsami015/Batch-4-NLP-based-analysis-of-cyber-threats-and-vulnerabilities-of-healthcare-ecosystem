@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="content-box text-center bg-dark bg-opacity-75 text-white" style="backdrop-filter: blur(10px); border-radius: 12px;">
+    <h2>Welcome to the</h2><h2>NLP-Based Analysis of Cyber Threats and Vulnerabilities of the Healthcare Ecosystem</h2>
+
+    <p class="mt-3">
+        This system predicts:
+        <br>
+        🔒 Threat Category <br>
+        ⚠️ Severity Score <br>
+        🛠 Suggested Defense Mechanism <br>
+    </p>
+
+    {% if request.session.username %}
+        <a href="{% url 'upload_test_dataset' %}" class="btn btn-warning mt-3 btn-lg">
+            Start Prediction
+        </a>
+    {% else %}
+        <!-- Replaced Login/Sign Up with Start Prediction -->
+        <a href="{% url 'upload_test_dataset' %}" class="btn btn-warning mt-3 btn-lg">
+            Start Prediction
+        </a>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,1101 @@
+Sentiment in Forums,Risk Level Prediction,Word Count,processed_IOCs (Indicators of Compromise),processed_Threat Actor,processed_Attack Vector,processed_Geographical Location,processed_Cleaned Threat Description,processed_Keyword Extraction,processed_Named Entities (NER),processed_Topic Modeling Labels,Threat Category,Severity Score,Suggested Defense Mechanism
+0.99,4,47,,,email,north korea,ransomware attack network vulnerability,,,malware,DDoS,5,Increase Web Security
+0.97,4,31,,lazarus group,network,usa,phishing email malicious link,,service,phishing,Malware,1,Quarantine
+0.87,2,24,,,email,north korea,ransomware attack network vulnerability,,,malware,Phishing,3,Quarantine
+0.64,1,46,,lazarus group,web,global,phishing email malicious link,,,ddos,DDoS,2,Quarantine
+0.57,1,24,,unknown,email,germany,phishing scam targeting corporate account,,group device,ddos,DDoS,1,Patch Vulnerability
+0.93,4,34,,,web,north korea,ransomware attack network vulnerability,,,malware,Malware,5,Patch Vulnerability
+0.58,5,30,,lazarus group,email,germany,phishing scam targeting corporate account,,group device,phishing,Phishing,1,Patch Vulnerability
+0.93,3,47,,anonymous,web,north korea,distributed denial service attack public website,,service,phishing,Phishing,5,Increase Web Security
+0.75,4,11,,anonymous,network,global,phishing email malicious link,,service,phishing,DDoS,4,Patch Vulnerability
+0.7,5,36,,,web,usa,distributed denial service attack public website,,group device,ransomware,Ransomware,5,Monitor for Phishing
+0.95,5,41,,,network,global,phishing email malicious link,,,phishing,DDoS,5,Quarantine
+0.8,2,30,,unknown,network,usa,phishing scam targeting corporate account,,service,phishing,DDoS,5,Increase Web Security
+0.79,2,13,,,web,usa,malware detected email attachment,,,malware,DDoS,3,Increase Web Security
+0.78,1,28,,unknown,email,germany,ransomware attack network vulnerability,,service,ransomware,DDoS,5,Increase Web Security
+0.69,1,11,,unknown,email,global,phishing scam targeting corporate account,,service,malware,Malware,2,Increase Web Security
+0.89,3,35,,anonymous,email,north korea,phishing email malicious link,,,phishing,Phishing,2,Increase Web Security
+0.63,3,43,,anonymous,email,global,phishing email malicious link,,,ddos,Malware,1,Monitor for Phishing
+0.97,3,23,,lazarus group,email,germany,phishing email malicious link,,,malware,Malware,3,Quarantine
+0.95,3,24,,anonymous,network,usa,phishing email malicious link,,,phishing,Malware,1,Increase Web Security
+0.67,5,29,,anonymous,email,germany,ransomware attack network vulnerability,,,phishing,DDoS,2,Quarantine
+0.86,5,43,,,network,russia,distributed denial service attack public website,,,phishing,Ransomware,2,Patch Vulnerability
+0.79,1,45,,anonymous,network,russia,malware detected email attachment,,service,ddos,Phishing,4,Increase Web Security
+0.67,2,28,,lazarus group,network,north korea,ransomware attack network vulnerability,,,ddos,Ransomware,5,Increase Web Security
+0.99,2,18,,,web,germany,phishing email malicious link,,,ddos,Malware,2,Quarantine
+0.51,4,16,,lazarus group,web,north korea,ransomware attack network vulnerability,,service,ransomware,Malware,1,Increase Web Security
+0.63,5,39,,anonymous,network,north korea,phishing scam targeting corporate account,,group device,ddos,Ransomware,1,Increase Web Security
+0.76,3,22,,lazarus group,web,russia,phishing email malicious link,,group device,ddos,Ransomware,5,Increase Web Security
+0.76,3,36,,,email,north korea,malware detected email attachment,,,ddos,Ransomware,5,Monitor for Phishing
+0.79,4,44,,unknown,email,russia,phishing email malicious link,,,malware,Malware,4,Monitor for Phishing
+0.88,2,22,,lazarus group,network,usa,malware detected email attachment,,,ddos,Malware,3,Increase Web Security
+0.81,3,24,,lazarus group,email,germany,malware detected email attachment,,,ransomware,Phishing,1,Monitor for Phishing
+0.8,2,18,,,network,north korea,distributed denial service attack public website,,service,phishing,Phishing,5,Patch Vulnerability
+0.53,4,32,,,network,russia,distributed denial service attack public website,,,malware,Malware,1,Increase Web Security
+0.69,2,45,,lazarus group,email,global,ransomware attack network vulnerability,,,phishing,Ransomware,5,Patch Vulnerability
+0.62,2,49,,anonymous,web,north korea,ransomware attack network vulnerability,,,ddos,Ransomware,2,Quarantine
+0.63,2,12,,lazarus group,email,usa,malware detected email attachment,,group device,phishing,Phishing,1,Patch Vulnerability
+0.78,3,43,,,email,usa,phishing email malicious link,,,phishing,Malware,2,Quarantine
+0.6,1,28,,unknown,network,global,phishing scam targeting corporate account,,service,malware,Phishing,1,Increase Web Security
+0.65,5,37,,unknown,network,russia,phishing scam targeting corporate account,,,phishing,Phishing,3,Quarantine
+0.62,2,32,,anonymous,network,north korea,phishing email malicious link,,,ransomware,DDoS,4,Quarantine
+0.97,2,49,,lazarus group,network,russia,phishing email malicious link,,,phishing,DDoS,2,Patch Vulnerability
+0.97,2,16,,unknown,web,usa,distributed denial service attack public website,,service,phishing,DDoS,5,Patch Vulnerability
+0.8,1,21,,lazarus group,web,russia,phishing scam targeting corporate account,,,phishing,Ransomware,3,Patch Vulnerability
+0.96,4,23,,,web,usa,malware detected email attachment,,,phishing,Malware,1,Increase Web Security
+0.89,3,24,,unknown,network,russia,ransomware attack network vulnerability,,group device,malware,Malware,2,Increase Web Security
+0.79,1,12,,anonymous,network,global,distributed denial service attack public website,,,phishing,Malware,1,Patch Vulnerability
+0.5,2,24,,,network,germany,phishing scam targeting corporate account,,group device,phishing,Malware,1,Increase Web Security
+0.89,1,33,,anonymous,web,global,phishing email malicious link,,service,ransomware,DDoS,1,Increase Web Security
+0.85,1,17,,,network,global,phishing scam targeting corporate account,,group device,ransomware,Ransomware,4,Quarantine
+0.81,1,14,,unknown,email,germany,malware detected email attachment,,,ddos,Ransomware,4,Quarantine
+0.88,4,13,,anonymous,email,germany,distributed denial service attack public website,,,phishing,DDoS,5,Patch Vulnerability
+0.76,5,23,,anonymous,network,north korea,phishing email malicious link,,,phishing,Ransomware,2,Increase Web Security
+0.85,3,25,,,email,north korea,malware detected email attachment,,,phishing,DDoS,3,Quarantine
+0.97,4,29,,anonymous,email,global,ransomware attack network vulnerability,,group device,phishing,Malware,3,Monitor for Phishing
+0.69,4,33,,,web,global,distributed denial service attack public website,,,phishing,DDoS,3,Increase Web Security
+0.85,5,15,,,network,usa,malware detected email attachment,,,ransomware,Malware,1,Monitor for Phishing
+0.74,4,40,,,network,usa,malware detected email attachment,,,phishing,Malware,4,Patch Vulnerability
+0.84,1,15,,,web,north korea,phishing email malicious link,,service,phishing,Phishing,2,Increase Web Security
+0.88,1,44,,unknown,email,north korea,ransomware attack network vulnerability,,,ddos,DDoS,1,Patch Vulnerability
+0.52,2,24,,,email,usa,malware detected email attachment,,service,ransomware,Phishing,4,Patch Vulnerability
+0.82,4,38,,lazarus group,network,usa,distributed denial service attack public website,,service,phishing,DDoS,4,Patch Vulnerability
+0.61,2,12,,anonymous,email,russia,malware detected email attachment,,service,phishing,DDoS,2,Patch Vulnerability
+0.84,3,20,,lazarus group,web,russia,phishing scam targeting corporate account,,,malware,Phishing,2,Patch Vulnerability
+0.73,1,12,,unknown,web,usa,distributed denial service attack public website,,service,malware,Phishing,2,Increase Web Security
+0.89,3,37,,lazarus group,network,russia,distributed denial service attack public website,,group device,malware,DDoS,1,Monitor for Phishing
+0.56,5,19,,anonymous,web,germany,malware detected email attachment,,,phishing,Ransomware,5,Increase Web Security
+0.81,1,42,,lazarus group,web,north korea,phishing email malicious link,,,phishing,Malware,2,Increase Web Security
+0.64,3,25,,unknown,network,north korea,distributed denial service attack public website,,service,ddos,Phishing,5,Increase Web Security
+0.93,5,19,,,web,usa,phishing scam targeting corporate account,,,ddos,Malware,1,Quarantine
+0.96,3,42,,lazarus group,web,global,phishing email malicious link,,,ddos,Ransomware,5,Quarantine
+1.0,5,45,,unknown,web,usa,phishing email malicious link,,,malware,Ransomware,3,Increase Web Security
+0.9,5,12,,unknown,email,russia,phishing email malicious link,,,phishing,Ransomware,5,Monitor for Phishing
+0.88,1,14,,anonymous,network,global,distributed denial service attack public website,,group device,malware,Phishing,2,Increase Web Security
+0.61,2,21,,anonymous,network,russia,phishing email malicious link,,,ddos,Ransomware,1,Patch Vulnerability
+0.67,5,22,,lazarus group,network,germany,malware detected email attachment,,,phishing,Phishing,2,Quarantine
+0.73,5,33,,,email,russia,phishing email malicious link,,,ransomware,Ransomware,3,Quarantine
+0.89,1,41,,unknown,email,germany,phishing scam targeting corporate account,,,phishing,Malware,2,Increase Web Security
+0.96,2,25,,lazarus group,network,germany,ransomware attack network vulnerability,,,phishing,Malware,2,Increase Web Security
+0.59,4,41,,unknown,email,russia,phishing scam targeting corporate account,,service,ddos,DDoS,2,Monitor for Phishing
+0.96,4,46,,unknown,network,russia,distributed denial service attack public website,,,malware,Malware,4,Monitor for Phishing
+0.85,2,45,,,email,germany,phishing email malicious link,,,ransomware,DDoS,3,Patch Vulnerability
+0.81,3,30,,,web,global,phishing email malicious link,,group device,phishing,Malware,2,Increase Web Security
+0.6,1,21,,lazarus group,web,germany,malware detected email attachment,,,malware,Phishing,2,Increase Web Security
+0.53,2,30,,,network,north korea,phishing email malicious link,,group device,ddos,Malware,2,Increase Web Security
+0.78,4,30,,,email,germany,phishing scam targeting corporate account,,,malware,DDoS,1,Quarantine
+0.83,5,15,,lazarus group,email,global,distributed denial service attack public website,,service,ddos,DDoS,4,Patch Vulnerability
+0.61,4,18,,,web,north korea,ransomware attack network vulnerability,,group device,phishing,Ransomware,1,Monitor for Phishing
+0.78,5,10,,anonymous,web,usa,phishing email malicious link,,,phishing,Phishing,4,Quarantine
+0.93,1,21,,unknown,email,usa,ransomware attack network vulnerability,,,malware,Malware,2,Quarantine
+0.92,5,23,,unknown,email,global,phishing email malicious link,,,ransomware,Ransomware,3,Quarantine
+0.96,2,15,,unknown,email,germany,distributed denial service attack public website,,,phishing,Malware,5,Quarantine
+0.68,5,10,,unknown,email,russia,phishing scam targeting corporate account,,group device,ddos,Malware,5,Patch Vulnerability
+0.66,3,31,,lazarus group,email,global,distributed denial service attack public website,,,phishing,Ransomware,2,Increase Web Security
+0.87,2,43,,unknown,email,north korea,ransomware attack network vulnerability,,group device,phishing,Ransomware,1,Monitor for Phishing
+0.72,1,20,,unknown,network,north korea,phishing email malicious link,,,ransomware,Ransomware,3,Monitor for Phishing
+0.54,2,12,,unknown,email,usa,ransomware attack network vulnerability,,,ransomware,Ransomware,4,Quarantine
+0.64,3,15,,unknown,web,north korea,phishing scam targeting corporate account,,,phishing,Ransomware,2,Quarantine
+0.71,1,15,,anonymous,network,global,distributed denial service attack public website,,service,phishing,Malware,3,Patch Vulnerability
+0.65,4,29,,unknown,email,north korea,ransomware attack network vulnerability,,,phishing,Ransomware,3,Quarantine
+0.67,3,30,,anonymous,web,global,ransomware attack network vulnerability,,,malware,Phishing,4,Monitor for Phishing
+0.65,1,11,,lazarus group,network,russia,phishing scam targeting corporate account,,,ransomware,DDoS,3,Monitor for Phishing
+0.52,5,35,,,web,usa,phishing email malicious link,,group device,ransomware,Ransomware,1,Increase Web Security
+0.82,2,40,,unknown,email,north korea,ransomware attack network vulnerability,,group device,malware,Ransomware,1,Increase Web Security
+0.8,1,35,,,email,global,phishing scam targeting corporate account,,service,phishing,Malware,1,Monitor for Phishing
+0.83,2,41,,,email,germany,phishing email malicious link,,group device,ransomware,Ransomware,3,Monitor for Phishing
+0.6,5,19,,lazarus group,email,usa,phishing email malicious link,,,ddos,Ransomware,1,Patch Vulnerability
+0.65,1,32,,,network,russia,distributed denial service attack public website,,group device,ddos,Ransomware,4,Patch Vulnerability
+0.81,4,15,,anonymous,network,global,phishing scam targeting corporate account,,service,phishing,Malware,3,Monitor for Phishing
+0.8,3,32,,,web,russia,phishing email malicious link,,,malware,Ransomware,5,Quarantine
+0.75,1,37,,,email,russia,distributed denial service attack public website,,group device,phishing,DDoS,3,Increase Web Security
+0.68,5,39,,,web,north korea,malware detected email attachment,,,phishing,Malware,4,Monitor for Phishing
+0.96,1,23,,unknown,network,north korea,phishing scam targeting corporate account,,,phishing,DDoS,5,Quarantine
+0.67,2,46,,unknown,email,global,malware detected email attachment,,,phishing,Malware,3,Monitor for Phishing
+0.73,1,41,,anonymous,email,germany,phishing email malicious link,,,ddos,Ransomware,1,Increase Web Security
+0.84,4,43,,anonymous,network,global,phishing scam targeting corporate account,,group device,malware,DDoS,2,Increase Web Security
+0.77,1,31,,unknown,network,germany,distributed denial service attack public website,,service,ddos,Malware,2,Patch Vulnerability
+0.67,3,40,,anonymous,network,russia,phishing email malicious link,,,malware,Phishing,1,Patch Vulnerability
+0.72,1,16,,unknown,network,usa,phishing scam targeting corporate account,,,phishing,Ransomware,2,Patch Vulnerability
+0.9,2,30,,lazarus group,network,global,phishing scam targeting corporate account,,,phishing,Malware,2,Patch Vulnerability
+0.64,1,25,,,email,global,malware detected email attachment,,,ransomware,Phishing,1,Increase Web Security
+0.57,4,29,,,network,germany,phishing email malicious link,,,ransomware,Malware,1,Quarantine
+0.66,5,28,,anonymous,email,russia,distributed denial service attack public website,,,malware,Phishing,3,Quarantine
+0.92,1,41,,unknown,email,russia,distributed denial service attack public website,,group device,malware,Ransomware,3,Quarantine
+0.54,1,24,,unknown,network,germany,phishing email malicious link,,,ddos,DDoS,1,Monitor for Phishing
+1.0,3,14,,anonymous,network,russia,phishing email malicious link,,,ransomware,Phishing,4,Patch Vulnerability
+0.77,4,20,,unknown,email,north korea,ransomware attack network vulnerability,,service,ddos,Malware,2,Patch Vulnerability
+0.99,5,24,,lazarus group,network,usa,malware detected email attachment,,group device,phishing,Ransomware,3,Increase Web Security
+0.97,2,38,,,network,global,phishing email malicious link,,group device,ransomware,Phishing,2,Increase Web Security
+0.73,1,13,,anonymous,network,usa,phishing email malicious link,,service,phishing,Malware,5,Monitor for Phishing
+0.6,5,45,,anonymous,web,global,ransomware attack network vulnerability,,service,phishing,Malware,1,Monitor for Phishing
+0.58,2,32,,unknown,email,north korea,ransomware attack network vulnerability,,service,ddos,Malware,4,Quarantine
+0.62,4,24,,anonymous,web,russia,phishing scam targeting corporate account,,,malware,Phishing,5,Increase Web Security
+0.86,4,12,,lazarus group,network,germany,distributed denial service attack public website,,,ransomware,Phishing,5,Patch Vulnerability
+0.64,5,41,,unknown,web,north korea,malware detected email attachment,,,ddos,Phishing,5,Quarantine
+0.67,2,19,,unknown,network,usa,phishing scam targeting corporate account,,,malware,DDoS,1,Patch Vulnerability
+0.72,4,49,,unknown,web,germany,phishing email malicious link,,,phishing,Phishing,3,Quarantine
+0.96,5,47,,unknown,network,russia,ransomware attack network vulnerability,,,ransomware,Phishing,1,Patch Vulnerability
+0.59,4,31,,lazarus group,web,north korea,distributed denial service attack public website,,,phishing,Phishing,3,Monitor for Phishing
+0.5,4,23,,unknown,web,germany,phishing scam targeting corporate account,,group device,phishing,DDoS,5,Quarantine
+0.53,4,26,,anonymous,web,north korea,distributed denial service attack public website,,,malware,Phishing,5,Patch Vulnerability
+0.95,3,30,,lazarus group,email,north korea,ransomware attack network vulnerability,,,ransomware,Malware,4,Patch Vulnerability
+0.82,2,24,,,web,russia,phishing scam targeting corporate account,,,ransomware,Phishing,3,Increase Web Security
+0.64,5,24,,,email,global,phishing scam targeting corporate account,,,phishing,Malware,5,Quarantine
+0.59,5,10,,anonymous,network,germany,distributed denial service attack public website,,,ransomware,Malware,2,Patch Vulnerability
+0.65,2,33,,anonymous,web,russia,ransomware attack network vulnerability,,group device,malware,Malware,4,Increase Web Security
+0.56,2,21,,lazarus group,network,north korea,phishing email malicious link,,,phishing,DDoS,1,Patch Vulnerability
+0.97,2,19,,,network,russia,phishing scam targeting corporate account,,,phishing,DDoS,4,Quarantine
+0.89,2,40,,,web,global,phishing email malicious link,,service,phishing,DDoS,2,Monitor for Phishing
+0.73,1,20,,,email,germany,ransomware attack network vulnerability,,,phishing,Phishing,3,Quarantine
+0.93,5,25,,,web,global,phishing scam targeting corporate account,,service,phishing,Malware,1,Quarantine
+0.62,1,18,,,network,usa,phishing scam targeting corporate account,,,malware,DDoS,1,Patch Vulnerability
+0.86,4,23,,unknown,network,germany,phishing email malicious link,,,ddos,DDoS,3,Patch Vulnerability
+0.93,4,28,,anonymous,web,global,malware detected email attachment,,,ddos,Phishing,4,Quarantine
+0.68,5,40,,unknown,email,north korea,phishing email malicious link,,,phishing,DDoS,5,Increase Web Security
+0.88,4,18,,,email,germany,phishing email malicious link,,,malware,Phishing,4,Increase Web Security
+0.65,2,45,,lazarus group,network,germany,malware detected email attachment,,,ransomware,Ransomware,2,Increase Web Security
+0.65,1,48,,lazarus group,network,russia,ransomware attack network vulnerability,,group device,phishing,DDoS,5,Patch Vulnerability
+0.55,2,35,,,email,north korea,ransomware attack network vulnerability,,service,ddos,Ransomware,4,Patch Vulnerability
+0.72,4,17,,,web,usa,phishing scam targeting corporate account,,service,malware,Phishing,3,Quarantine
+0.86,1,33,,lazarus group,network,global,distributed denial service attack public website,,service,phishing,Malware,2,Monitor for Phishing
+0.97,2,17,,unknown,email,russia,distributed denial service attack public website,,,malware,DDoS,2,Patch Vulnerability
+0.8,5,28,,unknown,network,global,phishing scam targeting corporate account,,group device,malware,Phishing,2,Quarantine
+0.93,2,39,,,web,usa,distributed denial service attack public website,,service,ddos,Malware,5,Quarantine
+0.91,4,31,,unknown,email,usa,phishing email malicious link,,service,ddos,Malware,1,Monitor for Phishing
+0.59,1,18,,lazarus group,network,germany,phishing email malicious link,,group device,ransomware,Ransomware,5,Increase Web Security
+0.74,5,13,,unknown,web,usa,malware detected email attachment,,,ransomware,Phishing,4,Quarantine
+0.56,1,46,,,network,global,malware detected email attachment,,service,phishing,Malware,1,Quarantine
+0.84,5,17,,lazarus group,web,north korea,phishing scam targeting corporate account,,,phishing,DDoS,4,Quarantine
+0.97,1,10,,unknown,web,north korea,phishing scam targeting corporate account,,service,ransomware,DDoS,1,Increase Web Security
+0.57,4,37,,anonymous,email,germany,phishing scam targeting corporate account,,,ddos,Ransomware,5,Increase Web Security
+0.87,5,15,,lazarus group,web,global,phishing email malicious link,,,malware,Malware,2,Monitor for Phishing
+0.82,3,45,,lazarus group,network,global,distributed denial service attack public website,,service,phishing,Phishing,3,Patch Vulnerability
+0.79,1,20,,anonymous,web,usa,phishing scam targeting corporate account,,,ransomware,DDoS,2,Increase Web Security
+0.7,1,14,,anonymous,web,global,phishing scam targeting corporate account,,group device,malware,Malware,5,Patch Vulnerability
+0.68,2,33,,lazarus group,email,russia,phishing email malicious link,,,malware,Malware,1,Patch Vulnerability
+0.52,5,27,,anonymous,web,usa,phishing email malicious link,,group device,ransomware,Ransomware,2,Increase Web Security
+0.61,3,29,,,web,russia,phishing email malicious link,,service,phishing,DDoS,5,Quarantine
+0.51,4,37,,,network,germany,distributed denial service attack public website,,group device,phishing,DDoS,4,Monitor for Phishing
+0.79,2,22,,,email,north korea,phishing scam targeting corporate account,,,phishing,Phishing,3,Patch Vulnerability
+0.55,3,14,,lazarus group,email,germany,ransomware attack network vulnerability,,,phishing,DDoS,2,Quarantine
+0.94,5,39,,anonymous,email,north korea,ransomware attack network vulnerability,,,phishing,Phishing,1,Increase Web Security
+0.76,3,10,,anonymous,web,germany,phishing scam targeting corporate account,,,ddos,DDoS,4,Patch Vulnerability
+0.85,1,31,,unknown,email,global,phishing scam targeting corporate account,,,ransomware,Ransomware,5,Patch Vulnerability
+0.71,1,27,,unknown,web,russia,phishing scam targeting corporate account,,,malware,DDoS,3,Patch Vulnerability
+0.78,2,14,,anonymous,web,north korea,phishing scam targeting corporate account,,service,phishing,Phishing,1,Quarantine
+0.97,5,40,,anonymous,network,usa,distributed denial service attack public website,,service,phishing,Phishing,5,Quarantine
+0.54,5,15,,anonymous,network,russia,ransomware attack network vulnerability,,,phishing,Ransomware,5,Quarantine
+0.63,3,36,,lazarus group,network,usa,malware detected email attachment,,,phishing,DDoS,2,Patch Vulnerability
+0.89,2,34,,anonymous,network,russia,ransomware attack network vulnerability,,group device,phishing,DDoS,2,Patch Vulnerability
+0.55,5,38,,unknown,network,russia,ransomware attack network vulnerability,,,phishing,Ransomware,1,Monitor for Phishing
+0.54,1,37,,lazarus group,web,germany,phishing email malicious link,,service,ransomware,DDoS,5,Monitor for Phishing
+0.68,3,25,,anonymous,web,north korea,phishing scam targeting corporate account,,,malware,DDoS,2,Quarantine
+0.55,4,21,,unknown,email,north korea,phishing scam targeting corporate account,,,ransomware,Phishing,3,Quarantine
+0.79,1,29,,lazarus group,web,russia,phishing scam targeting corporate account,,group device,ransomware,DDoS,3,Increase Web Security
+0.61,2,27,,anonymous,web,global,phishing email malicious link,,group device,phishing,DDoS,5,Quarantine
+0.95,5,43,,anonymous,network,global,distributed denial service attack public website,,service,phishing,Ransomware,2,Monitor for Phishing
+0.89,1,32,,anonymous,web,usa,distributed denial service attack public website,,,malware,Ransomware,1,Monitor for Phishing
+0.85,4,36,,lazarus group,network,usa,malware detected email attachment,,,phishing,Malware,1,Monitor for Phishing
+0.81,4,26,,unknown,email,germany,distributed denial service attack public website,,,ransomware,Phishing,1,Patch Vulnerability
+0.93,2,30,,unknown,email,russia,distributed denial service attack public website,,,malware,DDoS,3,Patch Vulnerability
+0.61,1,49,,,web,usa,phishing scam targeting corporate account,,,ransomware,DDoS,2,Quarantine
+0.94,3,40,,anonymous,email,usa,ransomware attack network vulnerability,,service,phishing,Malware,2,Increase Web Security
+0.89,1,12,,,web,russia,distributed denial service attack public website,,,ransomware,DDoS,3,Increase Web Security
+0.87,4,26,,,email,germany,distributed denial service attack public website,,group device,ddos,Phishing,1,Increase Web Security
+0.78,2,35,,unknown,network,usa,phishing email malicious link,,,malware,Malware,1,Patch Vulnerability
+0.62,2,32,,lazarus group,network,germany,malware detected email attachment,,service,phishing,Phishing,5,Monitor for Phishing
+0.71,3,15,,lazarus group,network,north korea,phishing email malicious link,,,ransomware,Malware,4,Monitor for Phishing
+0.9,2,37,,unknown,network,germany,phishing scam targeting corporate account,,,malware,Malware,2,Patch Vulnerability
+0.52,2,17,,lazarus group,web,global,ransomware attack network vulnerability,,,malware,Ransomware,2,Increase Web Security
+0.89,2,17,,,email,global,malware detected email attachment,,group device,ransomware,Phishing,2,Increase Web Security
+0.62,2,28,,anonymous,web,germany,phishing email malicious link,,group device,phishing,DDoS,4,Quarantine
+0.57,2,47,,unknown,network,global,distributed denial service attack public website,,group device,phishing,DDoS,5,Quarantine
+0.56,4,38,,anonymous,web,north korea,distributed denial service attack public website,,service,ransomware,Phishing,4,Increase Web Security
+0.51,1,32,,lazarus group,email,russia,malware detected email attachment,,,malware,DDoS,1,Patch Vulnerability
+0.76,5,41,,anonymous,web,global,distributed denial service attack public website,,,phishing,DDoS,1,Increase Web Security
+0.61,2,19,,lazarus group,email,global,phishing email malicious link,,,ransomware,Phishing,2,Quarantine
+0.99,5,36,,lazarus group,web,germany,phishing email malicious link,,,ransomware,Malware,3,Increase Web Security
+0.79,5,10,,,email,north korea,distributed denial service attack public website,,group device,ransomware,Phishing,2,Patch Vulnerability
+0.57,4,48,,lazarus group,email,russia,distributed denial service attack public website,,,malware,Malware,3,Monitor for Phishing
+0.84,2,38,,,network,germany,phishing scam targeting corporate account,,,phishing,DDoS,4,Patch Vulnerability
+0.95,5,12,,,email,germany,ransomware attack network vulnerability,,,malware,DDoS,1,Patch Vulnerability
+0.87,2,46,,,network,north korea,malware detected email attachment,,,ddos,DDoS,3,Quarantine
+0.54,3,40,,unknown,network,russia,phishing email malicious link,,service,phishing,Ransomware,4,Patch Vulnerability
+0.95,3,20,,unknown,network,north korea,malware detected email attachment,,,malware,Malware,1,Patch Vulnerability
+0.9,3,31,,lazarus group,web,russia,phishing scam targeting corporate account,,service,phishing,Ransomware,3,Quarantine
+0.58,5,27,,,web,north korea,phishing email malicious link,,service,ddos,Ransomware,2,Quarantine
+0.53,3,44,,unknown,web,germany,phishing scam targeting corporate account,,service,phishing,Phishing,2,Monitor for Phishing
+0.78,4,15,,,web,germany,phishing scam targeting corporate account,,service,ransomware,Ransomware,2,Increase Web Security
+0.58,4,12,,anonymous,email,usa,distributed denial service attack public website,,,malware,Phishing,4,Patch Vulnerability
+0.92,5,14,,anonymous,email,global,malware detected email attachment,,,ddos,Phishing,2,Quarantine
+0.68,2,18,,anonymous,web,north korea,malware detected email attachment,,,ddos,Ransomware,5,Monitor for Phishing
+0.96,1,37,,lazarus group,email,usa,distributed denial service attack public website,,service,phishing,Malware,1,Increase Web Security
+0.78,2,28,,,email,global,malware detected email attachment,,,phishing,Malware,4,Quarantine
+0.59,2,37,,anonymous,network,north korea,distributed denial service attack public website,,,ransomware,Malware,2,Increase Web Security
+0.57,2,36,,unknown,network,russia,phishing email malicious link,,,phishing,Malware,1,Increase Web Security
+0.79,2,22,,anonymous,network,global,phishing scam targeting corporate account,,group device,malware,Malware,3,Patch Vulnerability
+0.88,1,47,,anonymous,network,germany,phishing scam targeting corporate account,,service,malware,Ransomware,2,Patch Vulnerability
+0.89,3,30,,anonymous,email,usa,malware detected email attachment,,group device,malware,Ransomware,1,Quarantine
+0.64,2,36,,lazarus group,web,global,ransomware attack network vulnerability,,,phishing,DDoS,5,Increase Web Security
+0.6,4,15,,unknown,email,global,phishing scam targeting corporate account,,,malware,Malware,3,Quarantine
+0.51,5,47,,,email,germany,distributed denial service attack public website,,group device,phishing,Ransomware,5,Quarantine
+0.84,5,20,,unknown,email,north korea,ransomware attack network vulnerability,,,phishing,DDoS,1,Increase Web Security
+0.54,4,26,,,network,russia,ransomware attack network vulnerability,,service,malware,Malware,5,Quarantine
+0.71,2,48,,lazarus group,network,germany,phishing scam targeting corporate account,,,ddos,Phishing,1,Increase Web Security
+0.8,1,16,,lazarus group,network,russia,phishing scam targeting corporate account,,,ddos,DDoS,1,Increase Web Security
+0.97,3,39,,lazarus group,web,north korea,phishing scam targeting corporate account,,,ddos,Ransomware,5,Increase Web Security
+0.66,5,30,,lazarus group,email,global,distributed denial service attack public website,,service,ransomware,Phishing,1,Increase Web Security
+0.62,3,10,,,web,russia,ransomware attack network vulnerability,,,phishing,Phishing,2,Monitor for Phishing
+0.83,1,34,,anonymous,network,usa,malware detected email attachment,,,malware,Phishing,1,Increase Web Security
+0.81,5,41,,,web,usa,distributed denial service attack public website,,service,ransomware,DDoS,4,Patch Vulnerability
+0.67,3,17,,unknown,email,germany,phishing email malicious link,,service,ddos,Ransomware,1,Patch Vulnerability
+0.96,1,14,,lazarus group,email,north korea,phishing scam targeting corporate account,,,malware,Phishing,4,Patch Vulnerability
+0.92,3,39,,lazarus group,network,germany,ransomware attack network vulnerability,,,ransomware,Malware,1,Increase Web Security
+0.61,2,17,,unknown,network,germany,distributed denial service attack public website,,service,phishing,Phishing,1,Patch Vulnerability
+0.62,1,28,,,web,germany,phishing email malicious link,,,ddos,Phishing,5,Monitor for Phishing
+0.76,3,39,,anonymous,network,usa,distributed denial service attack public website,,group device,ransomware,DDoS,2,Quarantine
+0.89,2,24,,anonymous,network,usa,distributed denial service attack public website,,,phishing,DDoS,2,Increase Web Security
+0.52,2,45,,unknown,email,germany,malware detected email attachment,,service,ddos,Ransomware,3,Patch Vulnerability
+0.85,1,36,,anonymous,network,usa,malware detected email attachment,,service,phishing,Malware,5,Monitor for Phishing
+0.82,4,22,,,network,north korea,distributed denial service attack public website,,,ddos,DDoS,5,Quarantine
+0.62,5,23,,,email,germany,phishing email malicious link,,group device,phishing,Phishing,2,Monitor for Phishing
+0.84,1,46,,unknown,email,usa,ransomware attack network vulnerability,,,phishing,Ransomware,5,Patch Vulnerability
+0.97,2,39,,,web,russia,ransomware attack network vulnerability,,,phishing,Phishing,2,Monitor for Phishing
+0.52,2,48,,lazarus group,network,germany,phishing scam targeting corporate account,,service,malware,Phishing,5,Quarantine
+0.66,1,22,,unknown,email,germany,phishing scam targeting corporate account,,group device,malware,DDoS,1,Patch Vulnerability
+0.72,4,25,,,web,north korea,ransomware attack network vulnerability,,,phishing,Ransomware,2,Quarantine
+0.95,5,16,,unknown,web,global,distributed denial service attack public website,,,phishing,Malware,2,Monitor for Phishing
+0.98,3,36,,anonymous,network,global,distributed denial service attack public website,,service,phishing,Malware,4,Increase Web Security
+0.72,1,44,,,network,north korea,malware detected email attachment,,,ransomware,DDoS,5,Increase Web Security
+0.88,5,24,,lazarus group,web,north korea,malware detected email attachment,,,phishing,DDoS,5,Increase Web Security
+0.77,5,37,,,email,north korea,phishing scam targeting corporate account,,service,malware,Ransomware,2,Increase Web Security
+0.77,2,44,,unknown,web,global,ransomware attack network vulnerability,,group device,malware,Malware,1,Quarantine
+0.64,3,16,,unknown,network,north korea,distributed denial service attack public website,,,ransomware,Malware,1,Increase Web Security
+0.61,1,29,,,email,usa,ransomware attack network vulnerability,,,ransomware,Malware,1,Quarantine
+0.64,2,41,,lazarus group,email,germany,phishing email malicious link,,service,ddos,Phishing,5,Patch Vulnerability
+0.78,2,47,,lazarus group,web,germany,ransomware attack network vulnerability,,,phishing,Malware,4,Increase Web Security
+0.51,4,49,,lazarus group,network,russia,phishing email malicious link,,,phishing,Phishing,2,Quarantine
+0.95,5,41,,unknown,web,russia,malware detected email attachment,,group device,phishing,Ransomware,3,Increase Web Security
+0.58,1,35,,,web,germany,malware detected email attachment,,service,malware,Phishing,4,Increase Web Security
+0.61,1,48,,anonymous,web,usa,phishing scam targeting corporate account,,group device,phishing,Ransomware,3,Increase Web Security
+0.76,1,29,,unknown,email,global,ransomware attack network vulnerability,,,ddos,Malware,4,Quarantine
+0.86,2,27,,lazarus group,email,global,ransomware attack network vulnerability,,,ddos,Malware,1,Monitor for Phishing
+0.55,4,24,,,network,usa,phishing email malicious link,,group device,phishing,Ransomware,5,Increase Web Security
+0.66,3,31,,lazarus group,network,global,malware detected email attachment,,service,ransomware,DDoS,3,Increase Web Security
+0.98,2,31,,anonymous,web,north korea,phishing email malicious link,,,ddos,Ransomware,4,Patch Vulnerability
+0.63,3,30,,lazarus group,web,germany,malware detected email attachment,,,ransomware,DDoS,5,Monitor for Phishing
+0.66,4,11,,lazarus group,web,germany,phishing email malicious link,,service,malware,Phishing,3,Quarantine
+0.92,5,49,,anonymous,network,usa,malware detected email attachment,,group device,ddos,Phishing,2,Patch Vulnerability
+0.53,1,27,,,email,global,phishing email malicious link,,,ransomware,Phishing,4,Increase Web Security
+0.73,3,32,,unknown,email,russia,malware detected email attachment,,service,phishing,Malware,2,Patch Vulnerability
+0.69,2,22,,,web,russia,phishing email malicious link,,,malware,Phishing,1,Patch Vulnerability
+0.66,3,18,,anonymous,web,global,ransomware attack network vulnerability,,,phishing,DDoS,2,Increase Web Security
+0.64,5,16,,lazarus group,web,russia,phishing scam targeting corporate account,,,phishing,Phishing,2,Monitor for Phishing
+0.55,1,10,,,web,usa,phishing email malicious link,,group device,phishing,Ransomware,4,Monitor for Phishing
+0.66,3,11,,unknown,network,usa,phishing scam targeting corporate account,,service,malware,Ransomware,1,Patch Vulnerability
+0.52,5,13,,anonymous,email,global,ransomware attack network vulnerability,,,malware,Malware,2,Increase Web Security
+0.89,2,23,,,web,russia,ransomware attack network vulnerability,,,malware,Ransomware,5,Quarantine
+0.7,4,41,,unknown,network,usa,malware detected email attachment,,group device,malware,DDoS,3,Patch Vulnerability
+0.72,2,45,,anonymous,web,usa,phishing scam targeting corporate account,,group device,phishing,Phishing,2,Quarantine
+0.95,1,11,,unknown,web,north korea,distributed denial service attack public website,,,ransomware,Malware,1,Patch Vulnerability
+0.83,2,49,,anonymous,email,north korea,malware detected email attachment,,service,malware,Phishing,2,Patch Vulnerability
+0.5,2,23,,lazarus group,web,usa,phishing scam targeting corporate account,,service,ransomware,Phishing,3,Increase Web Security
+0.97,2,29,,,email,global,phishing email malicious link,,,malware,DDoS,1,Increase Web Security
+0.62,2,34,,unknown,email,germany,phishing email malicious link,,,ddos,Ransomware,4,Quarantine
+0.55,1,17,,anonymous,email,germany,ransomware attack network vulnerability,,,ddos,Ransomware,1,Quarantine
+0.88,5,37,,unknown,network,usa,distributed denial service attack public website,,,ddos,Phishing,4,Monitor for Phishing
+0.75,3,30,,unknown,network,usa,phishing email malicious link,,,malware,Malware,1,Increase Web Security
+0.72,4,32,,,email,usa,phishing scam targeting corporate account,,,ransomware,Ransomware,3,Patch Vulnerability
+0.62,3,41,,lazarus group,web,global,phishing scam targeting corporate account,,,phishing,Malware,3,Patch Vulnerability
+0.77,3,17,,unknown,email,north korea,phishing email malicious link,,,phishing,Ransomware,1,Monitor for Phishing
+0.64,4,40,,anonymous,web,usa,phishing scam targeting corporate account,,service,phishing,Malware,2,Increase Web Security
+0.95,1,46,,anonymous,email,usa,phishing scam targeting corporate account,,,malware,DDoS,3,Patch Vulnerability
+0.61,4,25,,lazarus group,web,russia,ransomware attack network vulnerability,,,ddos,Malware,4,Monitor for Phishing
+0.94,1,49,,anonymous,network,global,distributed denial service attack public website,,,ddos,DDoS,4,Monitor for Phishing
+0.78,3,36,,lazarus group,web,usa,ransomware attack network vulnerability,,,ransomware,DDoS,5,Patch Vulnerability
+0.91,1,49,,anonymous,email,russia,distributed denial service attack public website,,group device,malware,Malware,4,Patch Vulnerability
+0.86,5,27,,,network,germany,phishing scam targeting corporate account,,,phishing,DDoS,5,Quarantine
+0.85,4,44,,unknown,web,usa,distributed denial service attack public website,,service,malware,Phishing,1,Increase Web Security
+0.66,5,24,,,web,usa,phishing scam targeting corporate account,,group device,malware,DDoS,1,Quarantine
+0.62,3,36,,unknown,web,russia,phishing scam targeting corporate account,,group device,ddos,Ransomware,1,Monitor for Phishing
+0.61,4,26,,unknown,web,global,ransomware attack network vulnerability,,,phishing,Malware,2,Patch Vulnerability
+0.93,3,49,,unknown,web,usa,ransomware attack network vulnerability,,,phishing,Phishing,2,Quarantine
+0.91,5,11,,,network,germany,malware detected email attachment,,,ddos,Malware,5,Monitor for Phishing
+0.72,3,40,,unknown,network,usa,phishing email malicious link,,,phishing,Ransomware,4,Increase Web Security
+0.57,4,46,,,network,germany,malware detected email attachment,,,ransomware,Ransomware,4,Patch Vulnerability
+0.69,4,43,,lazarus group,network,north korea,malware detected email attachment,,group device,ddos,Ransomware,1,Quarantine
+0.81,3,43,,anonymous,email,north korea,distributed denial service attack public website,,group device,ransomware,DDoS,3,Increase Web Security
+0.73,4,12,,anonymous,network,germany,phishing scam targeting corporate account,,group device,ddos,DDoS,2,Quarantine
+0.89,4,26,,unknown,web,global,phishing scam targeting corporate account,,service,malware,Malware,2,Monitor for Phishing
+1.0,3,23,,,web,usa,phishing scam targeting corporate account,,service,phishing,Malware,1,Increase Web Security
+0.6,5,23,,anonymous,network,usa,phishing email malicious link,,,ransomware,Phishing,2,Quarantine
+0.73,4,47,,,web,north korea,distributed denial service attack public website,,group device,ddos,Phishing,1,Increase Web Security
+0.72,4,44,,,network,germany,distributed denial service attack public website,,,ransomware,Malware,5,Monitor for Phishing
+0.65,4,10,,unknown,web,usa,phishing scam targeting corporate account,,group device,ddos,DDoS,4,Increase Web Security
+0.6,4,38,,anonymous,email,usa,malware detected email attachment,,service,ddos,Ransomware,3,Quarantine
+0.53,3,13,,unknown,email,global,phishing email malicious link,,group device,phishing,Malware,4,Monitor for Phishing
+0.94,5,42,,unknown,network,russia,malware detected email attachment,,service,phishing,Phishing,4,Patch Vulnerability
+0.71,5,26,,anonymous,network,north korea,ransomware attack network vulnerability,,group device,phishing,DDoS,5,Quarantine
+0.75,1,37,,anonymous,network,north korea,distributed denial service attack public website,,,ransomware,Malware,2,Quarantine
+0.96,4,35,,lazarus group,web,russia,distributed denial service attack public website,,,malware,Malware,3,Monitor for Phishing
+0.89,4,17,,lazarus group,network,usa,malware detected email attachment,,,ddos,DDoS,2,Monitor for Phishing
+0.57,1,43,,,email,global,phishing email malicious link,,service,phishing,Malware,4,Patch Vulnerability
+0.78,5,27,,anonymous,web,global,distributed denial service attack public website,,,phishing,DDoS,1,Quarantine
+0.72,2,40,,lazarus group,network,north korea,malware detected email attachment,,,ransomware,Ransomware,4,Monitor for Phishing
+0.9,2,36,,,web,global,phishing email malicious link,,group device,ransomware,DDoS,2,Patch Vulnerability
+0.86,5,25,,,web,russia,malware detected email attachment,,,ransomware,DDoS,4,Patch Vulnerability
+0.85,4,19,,,network,usa,phishing email malicious link,,group device,phishing,DDoS,1,Monitor for Phishing
+0.67,2,49,,lazarus group,web,russia,phishing scam targeting corporate account,,group device,phishing,Malware,5,Quarantine
+0.9,3,21,,anonymous,email,germany,phishing email malicious link,,,phishing,Malware,2,Increase Web Security
+0.53,3,31,,unknown,email,north korea,ransomware attack network vulnerability,,,phishing,DDoS,4,Increase Web Security
+0.58,1,25,,,web,global,phishing scam targeting corporate account,,,phishing,Malware,2,Patch Vulnerability
+0.67,5,21,,lazarus group,network,germany,malware detected email attachment,,group device,phishing,Phishing,5,Increase Web Security
+0.54,5,20,,lazarus group,web,global,phishing scam targeting corporate account,,,phishing,Phishing,4,Increase Web Security
+0.62,2,29,,unknown,email,usa,phishing scam targeting corporate account,,,phishing,Malware,4,Monitor for Phishing
+0.92,4,10,,unknown,web,usa,malware detected email attachment,,group device,phishing,Malware,2,Patch Vulnerability
+0.97,5,36,,lazarus group,web,usa,malware detected email attachment,,,ddos,DDoS,2,Quarantine
+0.65,2,12,,anonymous,email,global,ransomware attack network vulnerability,,,phishing,Ransomware,1,Patch Vulnerability
+0.63,2,21,,unknown,web,germany,malware detected email attachment,,group device,ddos,Malware,5,Monitor for Phishing
+0.64,5,39,,lazarus group,web,usa,distributed denial service attack public website,,group device,ransomware,Phishing,1,Increase Web Security
+0.64,2,18,,unknown,network,germany,distributed denial service attack public website,,,ransomware,DDoS,4,Quarantine
+0.52,1,46,,anonymous,network,global,ransomware attack network vulnerability,,group device,phishing,Malware,2,Patch Vulnerability
+0.96,1,10,,,email,germany,phishing email malicious link,,,ddos,Phishing,4,Increase Web Security
+0.61,5,13,,unknown,email,global,phishing email malicious link,,group device,ddos,Phishing,4,Patch Vulnerability
+0.71,4,24,,anonymous,email,global,distributed denial service attack public website,,service,ddos,Ransomware,3,Quarantine
+0.5,1,36,,lazarus group,network,north korea,malware detected email attachment,,,ransomware,DDoS,3,Patch Vulnerability
+0.93,1,17,,unknown,email,global,ransomware attack network vulnerability,,,phishing,DDoS,4,Patch Vulnerability
+0.87,5,32,,unknown,email,global,phishing email malicious link,,,malware,Ransomware,2,Patch Vulnerability
+0.97,3,24,,lazarus group,email,russia,phishing email malicious link,,service,ddos,Ransomware,4,Increase Web Security
+0.89,2,36,,,network,usa,phishing scam targeting corporate account,,service,ddos,DDoS,3,Quarantine
+0.66,1,40,,lazarus group,web,north korea,distributed denial service attack public website,,group device,malware,DDoS,2,Quarantine
+0.62,3,48,,unknown,email,north korea,malware detected email attachment,,group device,phishing,Malware,4,Increase Web Security
+0.85,4,17,,lazarus group,web,north korea,ransomware attack network vulnerability,,,ddos,Malware,5,Increase Web Security
+0.68,3,39,,anonymous,email,russia,phishing email malicious link,,,phishing,Ransomware,5,Increase Web Security
+0.78,5,27,,lazarus group,web,global,phishing scam targeting corporate account,,,ddos,Malware,4,Monitor for Phishing
+0.5,4,13,,unknown,network,usa,distributed denial service attack public website,,service,phishing,Phishing,2,Patch Vulnerability
+0.53,4,31,,lazarus group,network,germany,distributed denial service attack public website,,group device,ddos,Malware,4,Patch Vulnerability
+0.77,3,12,,,email,global,ransomware attack network vulnerability,,group device,phishing,Malware,4,Quarantine
+0.78,5,24,,lazarus group,web,russia,phishing email malicious link,,group device,phishing,Phishing,3,Patch Vulnerability
+0.88,1,44,,,network,global,ransomware attack network vulnerability,,,ddos,Ransomware,5,Monitor for Phishing
+0.57,3,47,,anonymous,email,global,ransomware attack network vulnerability,,service,ransomware,Phishing,3,Increase Web Security
+0.76,1,42,,,email,russia,phishing scam targeting corporate account,,group device,ransomware,Malware,3,Quarantine
+0.6,3,23,,lazarus group,network,north korea,distributed denial service attack public website,,service,malware,Ransomware,4,Quarantine
+0.55,1,10,,unknown,network,north korea,malware detected email attachment,,group device,ransomware,Malware,3,Patch Vulnerability
+0.71,3,35,,,email,usa,distributed denial service attack public website,,,phishing,Phishing,5,Quarantine
+0.58,4,17,,anonymous,web,usa,distributed denial service attack public website,,service,ransomware,Phishing,3,Increase Web Security
+0.61,2,25,,,web,north korea,phishing scam targeting corporate account,,,ransomware,Malware,5,Quarantine
+0.66,4,47,,,web,germany,malware detected email attachment,,,ransomware,DDoS,3,Increase Web Security
+0.63,1,19,,,email,global,phishing email malicious link,,,ddos,DDoS,5,Monitor for Phishing
+0.54,5,46,,anonymous,network,germany,malware detected email attachment,,service,malware,Phishing,3,Monitor for Phishing
+0.54,4,35,,lazarus group,email,global,phishing email malicious link,,group device,phishing,Phishing,3,Increase Web Security
+0.6,2,37,,,network,north korea,malware detected email attachment,,service,malware,DDoS,2,Patch Vulnerability
+0.53,1,21,,,web,usa,ransomware attack network vulnerability,,,phishing,DDoS,5,Quarantine
+0.81,4,29,,unknown,web,usa,malware detected email attachment,,service,ddos,Malware,5,Patch Vulnerability
+0.64,3,23,,anonymous,network,germany,phishing scam targeting corporate account,,group device,ddos,Malware,5,Quarantine
+0.64,5,44,,,network,usa,phishing email malicious link,,,ransomware,DDoS,1,Monitor for Phishing
+0.67,1,38,,anonymous,email,north korea,distributed denial service attack public website,,,ransomware,Malware,3,Monitor for Phishing
+0.83,4,21,,,web,germany,phishing scam targeting corporate account,,,phishing,Malware,5,Monitor for Phishing
+0.94,1,27,,lazarus group,email,global,phishing email malicious link,,group device,ddos,Ransomware,1,Quarantine
+0.88,3,11,,lazarus group,email,usa,phishing email malicious link,,group device,phishing,Malware,2,Monitor for Phishing
+0.86,2,11,,,email,russia,distributed denial service attack public website,,,malware,Phishing,5,Monitor for Phishing
+0.74,4,26,,lazarus group,web,usa,ransomware attack network vulnerability,,service,ddos,Malware,5,Monitor for Phishing
+0.85,1,19,,,email,global,phishing scam targeting corporate account,,service,phishing,Malware,1,Monitor for Phishing
+0.78,1,27,,lazarus group,email,germany,distributed denial service attack public website,,,phishing,DDoS,3,Patch Vulnerability
+0.61,1,31,,unknown,email,global,distributed denial service attack public website,,,malware,Phishing,2,Monitor for Phishing
+0.6,2,28,,unknown,email,russia,ransomware attack network vulnerability,,,phishing,Malware,5,Monitor for Phishing
+0.65,1,10,,unknown,email,north korea,phishing scam targeting corporate account,,,phishing,Malware,3,Patch Vulnerability
+0.96,5,33,,anonymous,email,usa,distributed denial service attack public website,,group device,phishing,Ransomware,2,Patch Vulnerability
+0.77,5,45,,anonymous,web,germany,ransomware attack network vulnerability,,,phishing,Malware,4,Quarantine
+0.87,1,34,,unknown,email,north korea,phishing scam targeting corporate account,,service,phishing,Malware,4,Increase Web Security
+0.67,5,45,,anonymous,network,global,malware detected email attachment,,group device,ransomware,Ransomware,2,Monitor for Phishing
+0.7,4,40,,lazarus group,email,germany,phishing email malicious link,,,phishing,DDoS,1,Monitor for Phishing
+0.56,5,40,,,email,north korea,ransomware attack network vulnerability,,,phishing,Malware,2,Monitor for Phishing
+0.59,1,11,,,web,germany,phishing email malicious link,,service,phishing,Ransomware,2,Quarantine
+0.91,3,28,,,web,russia,malware detected email attachment,,,phishing,Phishing,1,Monitor for Phishing
+0.79,4,21,,unknown,network,russia,distributed denial service attack public website,,,phishing,DDoS,1,Increase Web Security
+0.67,2,19,,anonymous,network,usa,distributed denial service attack public website,,service,phishing,Phishing,3,Patch Vulnerability
+0.9,1,40,,lazarus group,web,usa,phishing scam targeting corporate account,,service,phishing,Phishing,3,Quarantine
+0.62,2,31,,lazarus group,web,russia,ransomware attack network vulnerability,,,malware,Ransomware,1,Patch Vulnerability
+0.99,3,32,,unknown,email,germany,ransomware attack network vulnerability,,,malware,Malware,4,Monitor for Phishing
+0.67,2,32,,lazarus group,web,russia,phishing scam targeting corporate account,,,phishing,Ransomware,4,Monitor for Phishing
+0.67,1,24,,lazarus group,network,usa,phishing email malicious link,,,ransomware,Ransomware,2,Monitor for Phishing
+0.66,1,35,,lazarus group,email,russia,distributed denial service attack public website,,,malware,Ransomware,5,Increase Web Security
+0.56,3,12,,lazarus group,network,russia,distributed denial service attack public website,,,ddos,Ransomware,2,Increase Web Security
+0.56,1,32,,anonymous,email,germany,ransomware attack network vulnerability,,service,malware,DDoS,2,Quarantine
+0.82,3,29,,lazarus group,web,north korea,ransomware attack network vulnerability,,,ddos,Malware,5,Patch Vulnerability
+0.94,3,49,,,network,usa,phishing scam targeting corporate account,,service,phishing,Phishing,1,Monitor for Phishing
+0.9,1,48,,unknown,email,germany,malware detected email attachment,,group device,ransomware,Phishing,4,Monitor for Phishing
+0.57,5,17,,anonymous,email,russia,phishing email malicious link,,group device,ddos,Malware,2,Monitor for Phishing
+0.77,3,27,,lazarus group,web,russia,malware detected email attachment,,,ddos,Phishing,5,Monitor for Phishing
+0.55,1,15,,anonymous,web,north korea,malware detected email attachment,,service,malware,Malware,3,Increase Web Security
+0.52,5,36,,lazarus group,web,usa,ransomware attack network vulnerability,,group device,ddos,Phishing,2,Patch Vulnerability
+0.83,3,45,,,network,usa,ransomware attack network vulnerability,,,phishing,Ransomware,4,Patch Vulnerability
+0.77,5,24,,unknown,email,global,ransomware attack network vulnerability,,service,phishing,Phishing,1,Quarantine
+0.54,4,46,,lazarus group,web,usa,malware detected email attachment,,,phishing,Malware,2,Increase Web Security
+0.52,4,14,,lazarus group,network,north korea,phishing email malicious link,,service,malware,Malware,2,Monitor for Phishing
+0.99,5,48,,lazarus group,network,global,ransomware attack network vulnerability,,group device,ransomware,Malware,5,Patch Vulnerability
+0.52,3,18,,lazarus group,network,global,distributed denial service attack public website,,,malware,Malware,3,Patch Vulnerability
+0.72,1,16,,unknown,web,russia,phishing email malicious link,,group device,phishing,Malware,3,Increase Web Security
+0.75,2,29,,unknown,web,russia,distributed denial service attack public website,,,malware,DDoS,1,Quarantine
+0.56,1,19,,,email,usa,phishing email malicious link,,,phishing,DDoS,4,Quarantine
+0.58,2,35,,unknown,email,global,ransomware attack network vulnerability,,group device,phishing,Phishing,1,Monitor for Phishing
+0.68,2,13,,lazarus group,web,russia,phishing scam targeting corporate account,,group device,phishing,Malware,2,Quarantine
+0.88,3,47,,,network,north korea,ransomware attack network vulnerability,,,ddos,Phishing,2,Patch Vulnerability
+0.75,5,33,,,network,russia,malware detected email attachment,,group device,ransomware,Malware,3,Quarantine
+0.82,1,23,,,network,russia,malware detected email attachment,,service,phishing,Malware,4,Monitor for Phishing
+0.99,5,10,,lazarus group,email,global,phishing email malicious link,,,phishing,DDoS,5,Patch Vulnerability
+0.88,4,26,,anonymous,network,global,malware detected email attachment,,,malware,DDoS,4,Quarantine
+0.72,3,33,,lazarus group,email,germany,ransomware attack network vulnerability,,service,malware,Ransomware,2,Quarantine
+0.72,3,36,,unknown,email,north korea,distributed denial service attack public website,,service,ddos,DDoS,5,Increase Web Security
+0.81,4,16,,unknown,network,global,ransomware attack network vulnerability,,service,malware,Ransomware,4,Monitor for Phishing
+0.83,1,18,,lazarus group,network,usa,phishing email malicious link,,service,phishing,Ransomware,4,Quarantine
+0.75,4,44,,lazarus group,web,north korea,malware detected email attachment,,,malware,Ransomware,5,Increase Web Security
+0.82,1,21,,,web,north korea,distributed denial service attack public website,,,phishing,Ransomware,2,Patch Vulnerability
+0.51,2,30,,lazarus group,network,global,phishing scam targeting corporate account,,group device,phishing,Ransomware,4,Increase Web Security
+0.71,3,12,,,email,north korea,distributed denial service attack public website,,service,ransomware,Phishing,5,Increase Web Security
+0.64,1,24,,unknown,email,global,distributed denial service attack public website,,group device,ddos,DDoS,2,Quarantine
+0.56,5,30,,,email,russia,ransomware attack network vulnerability,,group device,phishing,Ransomware,5,Quarantine
+0.55,5,19,,lazarus group,email,germany,phishing scam targeting corporate account,,service,phishing,Malware,5,Quarantine
+0.8,3,42,,unknown,email,russia,phishing email malicious link,,,ddos,DDoS,4,Increase Web Security
+0.76,4,15,,anonymous,web,global,phishing email malicious link,,group device,phishing,DDoS,2,Patch Vulnerability
+0.63,4,11,,,network,global,distributed denial service attack public website,,,malware,Ransomware,4,Monitor for Phishing
+0.74,1,38,,unknown,web,russia,distributed denial service attack public website,,group device,ddos,Phishing,1,Increase Web Security
+0.75,4,49,,,email,usa,malware detected email attachment,,service,ddos,Ransomware,1,Quarantine
+0.6,3,42,,unknown,email,usa,phishing scam targeting corporate account,,,ddos,Phishing,2,Monitor for Phishing
+0.83,1,13,,unknown,email,usa,distributed denial service attack public website,,group device,malware,Malware,5,Patch Vulnerability
+0.89,2,13,,,email,global,malware detected email attachment,,,malware,DDoS,4,Monitor for Phishing
+0.9,4,38,,anonymous,network,north korea,phishing scam targeting corporate account,,,ddos,Malware,4,Quarantine
+0.8,4,46,,unknown,email,global,phishing email malicious link,,,ransomware,Phishing,2,Increase Web Security
+0.76,1,29,,unknown,network,north korea,malware detected email attachment,,,phishing,Phishing,2,Increase Web Security
+0.53,5,32,,unknown,email,russia,phishing scam targeting corporate account,,,malware,Malware,1,Quarantine
+0.64,4,27,,anonymous,network,germany,malware detected email attachment,,group device,ransomware,Phishing,3,Increase Web Security
+0.55,3,34,,anonymous,web,north korea,distributed denial service attack public website,,service,malware,Malware,2,Quarantine
+0.98,4,10,,lazarus group,email,usa,ransomware attack network vulnerability,,,ddos,DDoS,3,Increase Web Security
+0.57,2,24,,,network,global,phishing email malicious link,,,ransomware,Malware,2,Increase Web Security
+0.58,4,43,,anonymous,web,russia,distributed denial service attack public website,,,phishing,DDoS,5,Increase Web Security
+0.94,5,29,,,email,usa,distributed denial service attack public website,,,phishing,Malware,5,Patch Vulnerability
+0.97,4,46,,lazarus group,email,russia,phishing scam targeting corporate account,,service,phishing,Phishing,1,Patch Vulnerability
+0.88,1,36,,,email,germany,malware detected email attachment,,,malware,Malware,1,Quarantine
+0.5,4,31,,anonymous,network,global,phishing email malicious link,,,phishing,Phishing,3,Patch Vulnerability
+0.5,5,14,,,network,global,distributed denial service attack public website,,service,phishing,Malware,2,Quarantine
+0.69,1,43,,anonymous,web,germany,phishing scam targeting corporate account,,,ransomware,Malware,4,Monitor for Phishing
+0.57,3,48,,,network,global,phishing email malicious link,,service,ransomware,Ransomware,1,Monitor for Phishing
+0.51,1,12,,anonymous,network,north korea,malware detected email attachment,,,ddos,Phishing,4,Patch Vulnerability
+0.73,2,26,,anonymous,email,russia,distributed denial service attack public website,,group device,ransomware,Ransomware,4,Monitor for Phishing
+0.97,1,33,,,email,usa,distributed denial service attack public website,,service,malware,Phishing,2,Monitor for Phishing
+0.66,3,33,,lazarus group,email,germany,distributed denial service attack public website,,,phishing,Ransomware,3,Increase Web Security
+0.83,4,12,,unknown,email,north korea,phishing email malicious link,,group device,ddos,DDoS,2,Increase Web Security
+0.83,1,16,,lazarus group,email,usa,phishing email malicious link,,,malware,Malware,1,Quarantine
+0.63,1,34,,,email,usa,phishing email malicious link,,,malware,Phishing,4,Monitor for Phishing
+0.83,1,12,,lazarus group,email,germany,phishing email malicious link,,,malware,Phishing,2,Quarantine
+0.61,1,24,,anonymous,web,north korea,phishing scam targeting corporate account,,group device,phishing,Malware,2,Quarantine
+0.56,3,38,,unknown,web,usa,ransomware attack network vulnerability,,service,malware,Phishing,2,Monitor for Phishing
+0.85,5,38,,,web,usa,phishing scam targeting corporate account,,,phishing,Phishing,1,Patch Vulnerability
+0.56,5,19,,,web,north korea,distributed denial service attack public website,,,ransomware,Ransomware,3,Monitor for Phishing
+1.0,1,41,,,email,global,phishing scam targeting corporate account,,,phishing,Phishing,2,Increase Web Security
+0.59,3,32,,unknown,web,usa,malware detected email attachment,,,malware,DDoS,1,Monitor for Phishing
+0.8,3,48,,anonymous,email,russia,phishing email malicious link,,,phishing,DDoS,4,Patch Vulnerability
+0.71,1,18,,,web,north korea,malware detected email attachment,,service,phishing,Malware,5,Quarantine
+0.56,2,46,,lazarus group,network,usa,malware detected email attachment,,,ransomware,Phishing,1,Quarantine
+0.51,1,49,,,web,germany,distributed denial service attack public website,,group device,malware,Malware,5,Increase Web Security
+0.81,2,23,,,web,russia,phishing email malicious link,,group device,phishing,DDoS,2,Increase Web Security
+0.9,1,13,,,email,usa,malware detected email attachment,,group device,phishing,Phishing,2,Increase Web Security
+0.92,2,29,,,web,russia,distributed denial service attack public website,,,ddos,Phishing,1,Quarantine
+0.74,2,37,,anonymous,network,russia,phishing email malicious link,,,malware,Malware,5,Increase Web Security
+0.89,1,23,,lazarus group,email,global,ransomware attack network vulnerability,,group device,malware,DDoS,2,Monitor for Phishing
+0.84,2,43,,anonymous,email,russia,distributed denial service attack public website,,,ddos,Phishing,4,Quarantine
+0.86,4,22,,lazarus group,web,global,phishing scam targeting corporate account,,,phishing,Malware,3,Patch Vulnerability
+0.75,5,40,,,email,north korea,phishing email malicious link,,,ddos,DDoS,3,Quarantine
+0.82,3,42,,unknown,email,global,malware detected email attachment,,service,ransomware,Malware,2,Monitor for Phishing
+0.9,2,48,,anonymous,email,germany,malware detected email attachment,,group device,phishing,Ransomware,5,Monitor for Phishing
+0.7,2,37,,unknown,email,usa,phishing scam targeting corporate account,,service,phishing,Phishing,2,Increase Web Security
+0.9,3,34,,anonymous,email,north korea,phishing scam targeting corporate account,,group device,phishing,Ransomware,5,Quarantine
+0.8,2,41,,,email,north korea,malware detected email attachment,,,ddos,DDoS,4,Quarantine
+0.58,3,18,,anonymous,network,germany,phishing email malicious link,,,malware,Ransomware,5,Quarantine
+0.51,1,37,,,web,global,distributed denial service attack public website,,,malware,Ransomware,2,Patch Vulnerability
+0.68,4,40,,anonymous,network,usa,phishing scam targeting corporate account,,,malware,DDoS,4,Increase Web Security
+0.77,4,26,,,email,global,phishing scam targeting corporate account,,,ransomware,Malware,1,Monitor for Phishing
+0.92,5,32,,,email,russia,phishing scam targeting corporate account,,,ransomware,Ransomware,3,Monitor for Phishing
+0.56,2,22,,lazarus group,web,global,ransomware attack network vulnerability,,,malware,Malware,2,Increase Web Security
+0.9,5,19,,,network,north korea,phishing email malicious link,,,phishing,Ransomware,2,Monitor for Phishing
+0.93,1,25,,lazarus group,web,usa,phishing email malicious link,,service,ransomware,Malware,2,Monitor for Phishing
+0.58,4,15,,,network,global,phishing email malicious link,,,ransomware,DDoS,4,Increase Web Security
+0.93,1,20,,unknown,email,usa,phishing email malicious link,,,phishing,Ransomware,1,Monitor for Phishing
+1.0,1,12,,,web,usa,phishing email malicious link,,,phishing,DDoS,5,Quarantine
+0.86,2,37,,unknown,web,russia,malware detected email attachment,,,phishing,Ransomware,1,Patch Vulnerability
+0.89,1,24,,unknown,email,russia,phishing scam targeting corporate account,,service,ransomware,DDoS,4,Increase Web Security
+1.0,4,22,,,web,north korea,malware detected email attachment,,,ransomware,DDoS,2,Patch Vulnerability
+0.8,5,26,,unknown,network,germany,ransomware attack network vulnerability,,,ddos,Ransomware,3,Monitor for Phishing
+0.65,4,16,,lazarus group,network,usa,distributed denial service attack public website,,group device,phishing,Ransomware,2,Monitor for Phishing
+0.92,2,37,,anonymous,network,germany,phishing scam targeting corporate account,,service,phishing,Ransomware,5,Quarantine
+0.81,4,47,,,network,north korea,ransomware attack network vulnerability,,group device,ddos,Phishing,3,Increase Web Security
+0.79,3,22,,unknown,email,usa,malware detected email attachment,,,ddos,Malware,2,Monitor for Phishing
+0.63,5,26,,,web,usa,distributed denial service attack public website,,,phishing,Phishing,3,Increase Web Security
+0.88,3,24,,lazarus group,network,germany,ransomware attack network vulnerability,,group device,phishing,Phishing,1,Increase Web Security
+0.54,3,45,,,email,global,distributed denial service attack public website,,service,phishing,DDoS,4,Increase Web Security
+0.96,2,37,,,web,russia,ransomware attack network vulnerability,,group device,ddos,Ransomware,2,Increase Web Security
+0.66,1,24,,unknown,web,global,malware detected email attachment,,service,malware,Malware,5,Increase Web Security
+0.56,3,20,,lazarus group,email,germany,distributed denial service attack public website,,service,malware,DDoS,1,Patch Vulnerability
+0.72,4,40,,anonymous,email,russia,ransomware attack network vulnerability,,,phishing,Phishing,2,Quarantine
+0.52,1,13,,anonymous,network,global,malware detected email attachment,,,malware,Ransomware,1,Increase Web Security
+0.84,4,44,,unknown,web,russia,phishing scam targeting corporate account,,,malware,DDoS,5,Patch Vulnerability
+0.95,4,43,,,web,usa,malware detected email attachment,,,malware,Ransomware,2,Monitor for Phishing
+0.92,1,36,,unknown,email,global,malware detected email attachment,,,ransomware,DDoS,5,Increase Web Security
+0.56,1,19,,unknown,web,russia,phishing scam targeting corporate account,,,phishing,Ransomware,3,Monitor for Phishing
+0.56,4,39,,unknown,network,russia,malware detected email attachment,,service,ddos,Phishing,5,Increase Web Security
+0.91,2,29,,,web,russia,phishing scam targeting corporate account,,service,malware,Malware,3,Patch Vulnerability
+0.96,5,38,,lazarus group,email,global,phishing scam targeting corporate account,,group device,ransomware,Phishing,2,Patch Vulnerability
+0.73,5,38,,unknown,email,north korea,phishing scam targeting corporate account,,group device,malware,Malware,3,Patch Vulnerability
+0.75,2,32,,,network,global,ransomware attack network vulnerability,,service,ransomware,Ransomware,2,Quarantine
+0.66,1,30,,lazarus group,network,germany,distributed denial service attack public website,,service,phishing,DDoS,2,Monitor for Phishing
+0.95,4,19,,unknown,web,global,ransomware attack network vulnerability,,group device,malware,Phishing,4,Quarantine
+0.82,5,21,,anonymous,web,russia,phishing scam targeting corporate account,,,ransomware,Malware,2,Increase Web Security
+0.64,4,39,,lazarus group,email,usa,distributed denial service attack public website,,,phishing,Phishing,3,Monitor for Phishing
+0.65,2,42,,unknown,network,global,distributed denial service attack public website,,group device,phishing,Malware,4,Patch Vulnerability
+0.95,4,27,,lazarus group,network,global,phishing scam targeting corporate account,,,ransomware,Phishing,4,Monitor for Phishing
+0.51,2,23,,lazarus group,network,russia,distributed denial service attack public website,,,malware,Malware,2,Patch Vulnerability
+0.66,1,31,,lazarus group,web,usa,distributed denial service attack public website,,,malware,Malware,5,Quarantine
+0.78,2,30,,lazarus group,network,usa,ransomware attack network vulnerability,,,phishing,Ransomware,5,Quarantine
+0.57,2,10,,lazarus group,email,germany,distributed denial service attack public website,,,phishing,Malware,4,Patch Vulnerability
+0.55,5,24,,lazarus group,email,global,phishing scam targeting corporate account,,,ddos,Ransomware,2,Patch Vulnerability
+0.91,4,45,,unknown,web,usa,phishing email malicious link,,service,phishing,Malware,5,Increase Web Security
+0.95,5,31,,anonymous,web,usa,phishing email malicious link,,,malware,DDoS,2,Quarantine
+0.91,3,41,,,network,north korea,phishing email malicious link,,group device,ddos,DDoS,2,Quarantine
+0.95,2,42,,lazarus group,web,north korea,phishing scam targeting corporate account,,,phishing,DDoS,4,Increase Web Security
+0.78,3,48,,,email,usa,phishing email malicious link,,service,ransomware,Malware,4,Quarantine
+0.91,5,32,,unknown,network,germany,ransomware attack network vulnerability,,,phishing,Ransomware,1,Patch Vulnerability
+0.69,4,11,,lazarus group,email,usa,phishing scam targeting corporate account,,,phishing,Ransomware,5,Monitor for Phishing
+0.83,5,11,,anonymous,network,russia,phishing scam targeting corporate account,,,phishing,Malware,5,Monitor for Phishing
+0.99,4,47,,,web,global,phishing scam targeting corporate account,,,ransomware,DDoS,5,Quarantine
+0.61,4,38,,lazarus group,network,germany,distributed denial service attack public website,,,malware,DDoS,3,Increase Web Security
+0.69,1,12,,unknown,network,russia,distributed denial service attack public website,,,ransomware,Ransomware,2,Patch Vulnerability
+0.74,2,48,,anonymous,email,germany,distributed denial service attack public website,,service,phishing,DDoS,4,Monitor for Phishing
+0.57,5,16,,,email,russia,malware detected email attachment,,group device,malware,Phishing,5,Patch Vulnerability
+0.54,4,45,,,network,global,ransomware attack network vulnerability,,service,ddos,Ransomware,1,Quarantine
+0.91,5,38,,lazarus group,web,global,phishing scam targeting corporate account,,,phishing,DDoS,5,Quarantine
+0.99,5,46,,anonymous,web,north korea,phishing scam targeting corporate account,,,ransomware,Ransomware,2,Monitor for Phishing
+0.7,4,45,,anonymous,email,russia,distributed denial service attack public website,,service,ddos,Phishing,2,Quarantine
+0.54,3,32,,anonymous,web,north korea,phishing scam targeting corporate account,,group device,phishing,Ransomware,4,Increase Web Security
+0.53,2,25,,anonymous,email,russia,phishing scam targeting corporate account,,,ddos,Ransomware,3,Quarantine
+0.95,2,40,,unknown,web,north korea,phishing email malicious link,,group device,ransomware,Ransomware,4,Quarantine
+0.73,1,43,,anonymous,network,global,phishing scam targeting corporate account,,,ddos,Ransomware,5,Quarantine
+0.66,1,10,,,email,germany,malware detected email attachment,,group device,ransomware,Phishing,1,Patch Vulnerability
+0.74,1,27,,,email,north korea,distributed denial service attack public website,,,phishing,Malware,4,Patch Vulnerability
+0.66,2,49,,unknown,network,russia,ransomware attack network vulnerability,,,malware,Ransomware,3,Monitor for Phishing
+0.74,3,24,,,email,russia,ransomware attack network vulnerability,,,phishing,Ransomware,4,Monitor for Phishing
+0.93,2,26,,,web,global,phishing email malicious link,,,malware,DDoS,2,Monitor for Phishing
+0.8,2,19,,anonymous,web,russia,ransomware attack network vulnerability,,,malware,Ransomware,5,Quarantine
+0.85,2,29,,,email,usa,ransomware attack network vulnerability,,group device,malware,DDoS,5,Patch Vulnerability
+0.68,2,15,,unknown,web,germany,distributed denial service attack public website,,,ransomware,Malware,5,Increase Web Security
+0.87,3,17,,anonymous,email,north korea,distributed denial service attack public website,,,ransomware,Phishing,5,Quarantine
+0.83,1,43,,lazarus group,network,germany,malware detected email attachment,,,phishing,Phishing,5,Quarantine
+0.56,5,41,,anonymous,email,global,phishing email malicious link,,,ransomware,Malware,5,Quarantine
+0.79,1,13,,unknown,network,north korea,ransomware attack network vulnerability,,service,ransomware,Phishing,1,Increase Web Security
+0.63,1,48,,anonymous,web,north korea,malware detected email attachment,,,ransomware,Malware,3,Monitor for Phishing
+0.9,5,29,,anonymous,network,usa,phishing email malicious link,,,ransomware,Malware,5,Increase Web Security
+0.71,2,33,,unknown,web,global,ransomware attack network vulnerability,,,phishing,Malware,3,Monitor for Phishing
+1.0,3,33,,anonymous,email,russia,ransomware attack network vulnerability,,,phishing,Phishing,5,Increase Web Security
+0.55,3,35,,unknown,web,usa,distributed denial service attack public website,,,ransomware,DDoS,4,Patch Vulnerability
+0.89,1,34,,unknown,email,usa,phishing scam targeting corporate account,,group device,phishing,Malware,5,Quarantine
+0.84,5,45,,lazarus group,email,germany,phishing email malicious link,,,ddos,Ransomware,2,Quarantine
+0.88,4,16,,,network,germany,ransomware attack network vulnerability,,,phishing,Phishing,1,Quarantine
+0.65,2,19,,,network,germany,phishing email malicious link,,service,ransomware,Malware,4,Monitor for Phishing
+0.75,1,21,,anonymous,network,usa,malware detected email attachment,,,phishing,Malware,4,Increase Web Security
+0.9,3,10,,anonymous,network,russia,malware detected email attachment,,,phishing,Ransomware,2,Patch Vulnerability
+0.62,5,34,,lazarus group,web,north korea,phishing scam targeting corporate account,,group device,ddos,DDoS,5,Increase Web Security
+0.61,5,25,,lazarus group,web,germany,ransomware attack network vulnerability,,,phishing,DDoS,1,Quarantine
+0.78,1,14,,lazarus group,web,russia,distributed denial service attack public website,,,phishing,DDoS,4,Patch Vulnerability
+0.76,4,28,,unknown,email,global,ransomware attack network vulnerability,,group device,malware,Malware,1,Patch Vulnerability
+0.64,3,13,,lazarus group,web,germany,phishing email malicious link,,,ddos,Malware,4,Quarantine
+0.65,1,15,,lazarus group,web,north korea,malware detected email attachment,,service,malware,Malware,5,Increase Web Security
+0.64,4,35,,anonymous,web,global,phishing email malicious link,,,ddos,Phishing,4,Quarantine
+0.89,5,48,,lazarus group,network,global,phishing scam targeting corporate account,,,malware,Ransomware,4,Increase Web Security
+0.83,2,48,,unknown,web,north korea,malware detected email attachment,,group device,malware,Malware,3,Patch Vulnerability
+0.92,3,18,,unknown,email,germany,distributed denial service attack public website,,,phishing,Ransomware,5,Patch Vulnerability
+0.99,3,23,,anonymous,network,usa,malware detected email attachment,,service,phishing,Ransomware,2,Quarantine
+0.74,4,18,,lazarus group,email,north korea,ransomware attack network vulnerability,,,ddos,DDoS,2,Patch Vulnerability
+0.53,1,24,,lazarus group,web,north korea,ransomware attack network vulnerability,,,phishing,Phishing,5,Monitor for Phishing
+0.52,5,46,,unknown,network,north korea,malware detected email attachment,,,phishing,Malware,2,Patch Vulnerability
+0.65,4,29,,lazarus group,email,global,phishing scam targeting corporate account,,,phishing,DDoS,5,Monitor for Phishing
+0.97,2,17,,lazarus group,web,russia,ransomware attack network vulnerability,,service,ransomware,DDoS,2,Patch Vulnerability
+0.76,2,41,,lazarus group,email,usa,ransomware attack network vulnerability,,,phishing,Malware,3,Quarantine
+0.64,2,30,,,email,germany,distributed denial service attack public website,,,phishing,Ransomware,2,Quarantine
+0.7,4,28,,anonymous,email,germany,malware detected email attachment,,group device,ransomware,DDoS,4,Monitor for Phishing
+0.8,5,38,,,web,russia,ransomware attack network vulnerability,,,malware,Ransomware,5,Quarantine
+0.83,3,40,,anonymous,web,north korea,phishing scam targeting corporate account,,service,malware,Phishing,1,Patch Vulnerability
+0.58,1,15,,unknown,email,usa,phishing email malicious link,,,ransomware,Ransomware,1,Patch Vulnerability
+0.99,3,13,,lazarus group,network,germany,malware detected email attachment,,,ransomware,Phishing,5,Quarantine
+0.77,5,38,,anonymous,network,germany,distributed denial service attack public website,,group device,ransomware,Ransomware,3,Patch Vulnerability
+0.57,3,12,,,web,north korea,ransomware attack network vulnerability,,,ddos,DDoS,2,Increase Web Security
+0.95,4,10,,lazarus group,web,russia,phishing scam targeting corporate account,,,phishing,DDoS,3,Increase Web Security
+0.54,2,24,,unknown,web,usa,malware detected email attachment,,,phishing,Phishing,1,Patch Vulnerability
+0.95,5,30,,anonymous,web,russia,phishing scam targeting corporate account,,service,malware,Malware,5,Quarantine
+1.0,5,40,,anonymous,web,russia,phishing scam targeting corporate account,,,malware,Phishing,5,Monitor for Phishing
+0.85,3,16,,anonymous,network,usa,distributed denial service attack public website,,,malware,Phishing,3,Quarantine
+0.89,4,26,,lazarus group,web,usa,malware detected email attachment,,,phishing,Ransomware,3,Monitor for Phishing
+0.67,3,28,,,email,germany,ransomware attack network vulnerability,,,malware,Ransomware,2,Quarantine
+0.97,3,48,,,email,germany,distributed denial service attack public website,,,ransomware,Phishing,4,Patch Vulnerability
+0.76,5,12,,anonymous,network,usa,ransomware attack network vulnerability,,,malware,DDoS,4,Increase Web Security
+0.87,3,39,,unknown,email,global,phishing email malicious link,,service,ransomware,Ransomware,2,Quarantine
+0.96,2,44,,unknown,network,germany,phishing scam targeting corporate account,,group device,ddos,Malware,4,Monitor for Phishing
+0.99,3,38,,,network,global,phishing email malicious link,,service,phishing,Ransomware,1,Increase Web Security
+0.92,2,23,,unknown,email,usa,phishing scam targeting corporate account,,,phishing,Ransomware,4,Monitor for Phishing
+0.65,5,44,,,web,germany,distributed denial service attack public website,,,phishing,Malware,2,Patch Vulnerability
+0.98,4,37,,anonymous,email,russia,ransomware attack network vulnerability,,,ddos,Phishing,4,Increase Web Security
+0.81,2,39,,,email,usa,ransomware attack network vulnerability,,,ransomware,Malware,5,Monitor for Phishing
+0.97,4,35,,,network,north korea,distributed denial service attack public website,,,ddos,Phishing,3,Quarantine
+0.84,4,16,,anonymous,email,global,malware detected email attachment,,,phishing,Phishing,1,Patch Vulnerability
+0.65,2,48,,unknown,network,usa,phishing email malicious link,,service,ransomware,Phishing,5,Patch Vulnerability
+0.69,5,40,,,web,usa,phishing email malicious link,,,ddos,Malware,5,Patch Vulnerability
+0.78,1,14,,,web,germany,ransomware attack network vulnerability,,,phishing,Phishing,2,Quarantine
+0.9,4,44,,anonymous,web,germany,ransomware attack network vulnerability,,,ransomware,DDoS,3,Quarantine
+0.66,4,23,,unknown,email,germany,ransomware attack network vulnerability,,,ransomware,Malware,3,Increase Web Security
+0.79,5,45,,,network,north korea,distributed denial service attack public website,,,phishing,DDoS,1,Quarantine
+0.67,5,36,,anonymous,web,germany,malware detected email attachment,,group device,ransomware,Phishing,2,Increase Web Security
+0.91,3,33,,,network,usa,phishing email malicious link,,,phishing,Ransomware,1,Patch Vulnerability
+0.73,5,49,,lazarus group,network,germany,phishing scam targeting corporate account,,,malware,Phishing,4,Increase Web Security
+0.54,4,38,,anonymous,web,russia,distributed denial service attack public website,,,malware,DDoS,5,Monitor for Phishing
+0.58,2,31,,unknown,web,germany,phishing email malicious link,,group device,ransomware,DDoS,1,Patch Vulnerability
+0.53,1,17,,unknown,network,north korea,malware detected email attachment,,,ransomware,Malware,5,Patch Vulnerability
+0.75,3,24,,unknown,web,russia,distributed denial service attack public website,,group device,phishing,Ransomware,2,Increase Web Security
+0.55,2,14,,unknown,network,usa,phishing email malicious link,,service,ransomware,Malware,4,Patch Vulnerability
+0.56,1,13,,,network,usa,distributed denial service attack public website,,,phishing,DDoS,2,Quarantine
+0.97,1,20,,,web,global,phishing email malicious link,,group device,malware,Phishing,4,Monitor for Phishing
+0.94,1,27,,unknown,email,russia,phishing email malicious link,,,ransomware,Ransomware,4,Increase Web Security
+0.73,2,39,,unknown,web,global,malware detected email attachment,,,ransomware,Phishing,5,Increase Web Security
+0.99,3,24,,unknown,email,russia,phishing scam targeting corporate account,,,ddos,Phishing,2,Patch Vulnerability
+0.5,3,15,,,network,russia,malware detected email attachment,,group device,ransomware,Ransomware,2,Quarantine
+0.81,1,25,,unknown,network,north korea,phishing email malicious link,,,phishing,Malware,1,Patch Vulnerability
+0.81,2,49,,unknown,email,global,distributed denial service attack public website,,group device,malware,Phishing,2,Patch Vulnerability
+0.73,1,18,,lazarus group,network,north korea,malware detected email attachment,,service,ddos,DDoS,1,Increase Web Security
+0.7,5,43,,lazarus group,email,russia,phishing scam targeting corporate account,,,phishing,Phishing,3,Patch Vulnerability
+0.73,3,36,,unknown,email,usa,phishing email malicious link,,,phishing,Ransomware,3,Monitor for Phishing
+0.71,4,22,,anonymous,network,russia,malware detected email attachment,,,malware,Ransomware,3,Patch Vulnerability
+0.87,1,45,,unknown,email,north korea,malware detected email attachment,,group device,phishing,Ransomware,2,Patch Vulnerability
+0.57,5,36,,lazarus group,web,global,malware detected email attachment,,,phishing,Malware,2,Increase Web Security
+0.6,3,18,,anonymous,web,global,malware detected email attachment,,group device,ransomware,Phishing,1,Patch Vulnerability
+0.59,2,14,,anonymous,network,north korea,distributed denial service attack public website,,,malware,Malware,4,Quarantine
+0.63,3,31,,unknown,network,global,phishing scam targeting corporate account,,service,ddos,Malware,1,Increase Web Security
+0.76,2,40,,lazarus group,email,germany,phishing scam targeting corporate account,,group device,ransomware,Ransomware,3,Patch Vulnerability
+0.56,2,12,,lazarus group,email,usa,phishing email malicious link,,service,phishing,Ransomware,1,Monitor for Phishing
+0.93,1,39,,anonymous,email,usa,ransomware attack network vulnerability,,,phishing,Malware,4,Monitor for Phishing
+0.65,1,30,,unknown,email,usa,distributed denial service attack public website,,service,ddos,Phishing,2,Increase Web Security
+0.58,3,44,,,web,global,phishing email malicious link,,,phishing,DDoS,1,Increase Web Security
+0.84,5,15,,,web,global,phishing email malicious link,,,ddos,Malware,3,Patch Vulnerability
+0.52,3,37,,lazarus group,network,russia,malware detected email attachment,,group device,malware,Phishing,3,Quarantine
+0.81,4,41,,,email,russia,ransomware attack network vulnerability,,group device,ddos,Ransomware,2,Patch Vulnerability
+0.85,2,46,,lazarus group,email,usa,ransomware attack network vulnerability,,,phishing,Ransomware,1,Monitor for Phishing
+0.61,2,34,,lazarus group,network,germany,distributed denial service attack public website,,,phishing,Phishing,4,Quarantine
+0.52,1,41,,lazarus group,email,russia,ransomware attack network vulnerability,,,phishing,DDoS,2,Quarantine
+0.68,5,44,,,email,russia,phishing email malicious link,,group device,ddos,Ransomware,1,Quarantine
+0.55,1,31,,lazarus group,email,global,ransomware attack network vulnerability,,,malware,Ransomware,5,Patch Vulnerability
+0.56,4,33,,anonymous,email,germany,ransomware attack network vulnerability,,,phishing,Ransomware,3,Monitor for Phishing
+0.63,3,48,,unknown,email,usa,phishing scam targeting corporate account,,service,ransomware,Phishing,4,Increase Web Security
+0.65,3,39,,unknown,network,russia,phishing email malicious link,,group device,phishing,Malware,4,Patch Vulnerability
+0.76,5,41,,lazarus group,email,germany,ransomware attack network vulnerability,,service,ddos,Ransomware,4,Increase Web Security
+0.84,1,40,,unknown,network,germany,ransomware attack network vulnerability,,,malware,Malware,3,Quarantine
+0.8,1,32,,,email,usa,malware detected email attachment,,service,malware,DDoS,1,Quarantine
+0.57,4,49,,,web,germany,ransomware attack network vulnerability,,,phishing,Ransomware,2,Patch Vulnerability
+0.59,3,42,,unknown,web,germany,ransomware attack network vulnerability,,,phishing,Ransomware,1,Monitor for Phishing
+0.94,1,34,,,web,germany,phishing scam targeting corporate account,,,phishing,DDoS,2,Quarantine
+0.78,5,45,,unknown,web,russia,phishing email malicious link,,group device,ransomware,Ransomware,4,Increase Web Security
+0.93,3,33,,unknown,network,usa,distributed denial service attack public website,,,ransomware,Malware,1,Increase Web Security
+0.69,4,40,,unknown,network,germany,phishing email malicious link,,group device,ransomware,Phishing,4,Patch Vulnerability
+0.81,5,48,,lazarus group,email,germany,malware detected email attachment,,service,malware,Malware,5,Increase Web Security
+0.76,2,22,,unknown,web,russia,phishing email malicious link,,,phishing,Phishing,4,Monitor for Phishing
+0.66,4,19,,lazarus group,network,usa,ransomware attack network vulnerability,,,phishing,Phishing,4,Quarantine
+0.73,5,32,,unknown,email,global,malware detected email attachment,,,phishing,Malware,2,Increase Web Security
+0.75,1,27,,unknown,email,russia,phishing email malicious link,,service,ransomware,Malware,5,Increase Web Security
+0.6,2,41,,unknown,network,usa,malware detected email attachment,,,phishing,Malware,4,Quarantine
+0.66,4,42,,,web,germany,distributed denial service attack public website,,,phishing,Malware,4,Patch Vulnerability
+0.9,1,45,,lazarus group,email,usa,phishing email malicious link,,,ddos,DDoS,5,Increase Web Security
+0.96,2,37,,lazarus group,web,usa,ransomware attack network vulnerability,,,phishing,Ransomware,5,Patch Vulnerability
+0.68,3,25,,unknown,web,usa,malware detected email attachment,,group device,phishing,Phishing,1,Patch Vulnerability
+0.65,1,25,,unknown,web,global,phishing scam targeting corporate account,,,phishing,Malware,2,Increase Web Security
+0.6,5,27,,,email,usa,malware detected email attachment,,,phishing,Malware,5,Monitor for Phishing
+0.84,4,17,,,web,global,phishing scam targeting corporate account,,group device,phishing,Malware,5,Patch Vulnerability
+0.66,2,25,,,email,germany,ransomware attack network vulnerability,,service,phishing,DDoS,3,Increase Web Security
+0.99,1,20,,lazarus group,web,global,distributed denial service attack public website,,,phishing,Malware,5,Patch Vulnerability
+0.66,3,15,,lazarus group,email,germany,phishing scam targeting corporate account,,service,phishing,Malware,2,Quarantine
+0.7,4,10,,lazarus group,web,germany,distributed denial service attack public website,,group device,ddos,Malware,4,Monitor for Phishing
+0.8,4,21,,unknown,network,global,malware detected email attachment,,service,malware,Ransomware,4,Monitor for Phishing
+0.9,1,47,,lazarus group,web,russia,ransomware attack network vulnerability,,service,phishing,DDoS,4,Quarantine
+0.73,3,37,,anonymous,web,north korea,phishing scam targeting corporate account,,service,phishing,Malware,4,Quarantine
+0.71,2,26,,anonymous,email,usa,malware detected email attachment,,,phishing,Phishing,3,Patch Vulnerability
+1.0,1,10,,,email,north korea,phishing email malicious link,,,phishing,Phishing,5,Quarantine
+0.51,2,41,,lazarus group,web,usa,malware detected email attachment,,,ransomware,Phishing,4,Monitor for Phishing
+0.95,4,17,,anonymous,network,usa,distributed denial service attack public website,,,ransomware,DDoS,1,Quarantine
+0.57,2,49,,,network,germany,ransomware attack network vulnerability,,group device,ddos,DDoS,4,Increase Web Security
+0.89,3,33,,lazarus group,email,usa,ransomware attack network vulnerability,,,phishing,Phishing,5,Increase Web Security
+0.81,5,19,,unknown,network,usa,malware detected email attachment,,service,phishing,Malware,4,Patch Vulnerability
+0.67,3,48,,anonymous,web,global,phishing email malicious link,,service,phishing,DDoS,3,Monitor for Phishing
+0.94,2,48,,unknown,email,north korea,distributed denial service attack public website,,service,malware,Phishing,2,Increase Web Security
+0.51,1,19,,lazarus group,web,global,malware detected email attachment,,service,ddos,Phishing,2,Quarantine
+0.61,4,45,,anonymous,email,usa,malware detected email attachment,,,phishing,Malware,5,Increase Web Security
+0.78,5,34,,lazarus group,email,germany,ransomware attack network vulnerability,,,malware,Ransomware,2,Increase Web Security
+0.68,1,19,,unknown,email,global,distributed denial service attack public website,,group device,phishing,DDoS,2,Patch Vulnerability
+0.81,1,28,,anonymous,email,global,phishing email malicious link,,group device,malware,Malware,1,Quarantine
+0.51,3,24,,unknown,network,russia,ransomware attack network vulnerability,,,ransomware,Phishing,5,Quarantine
+0.56,2,25,,lazarus group,web,usa,malware detected email attachment,,,ransomware,Phishing,5,Quarantine
+0.56,3,11,,lazarus group,web,germany,ransomware attack network vulnerability,,group device,phishing,Malware,2,Patch Vulnerability
+0.59,2,38,,unknown,web,global,ransomware attack network vulnerability,,,ddos,DDoS,2,Quarantine
+0.73,3,13,,anonymous,email,global,phishing scam targeting corporate account,,service,phishing,Ransomware,2,Quarantine
+0.88,1,38,,unknown,network,germany,ransomware attack network vulnerability,,,ddos,Ransomware,3,Increase Web Security
+0.95,4,40,,lazarus group,web,usa,ransomware attack network vulnerability,,,ddos,Phishing,4,Increase Web Security
+0.92,2,26,,unknown,network,russia,distributed denial service attack public website,,group device,phishing,DDoS,3,Quarantine
+0.6,5,19,,lazarus group,email,global,ransomware attack network vulnerability,,,ransomware,Ransomware,5,Monitor for Phishing
+0.72,5,36,,unknown,web,russia,phishing email malicious link,,,ransomware,DDoS,1,Monitor for Phishing
+0.6,1,24,,anonymous,network,north korea,malware detected email attachment,,group device,phishing,DDoS,4,Quarantine
+0.63,3,40,,anonymous,email,usa,distributed denial service attack public website,,,malware,Phishing,1,Monitor for Phishing
+0.75,3,30,,unknown,network,north korea,ransomware attack network vulnerability,,group device,ddos,Ransomware,5,Patch Vulnerability
+0.53,1,35,,unknown,web,north korea,phishing email malicious link,,service,phishing,Malware,5,Increase Web Security
+0.61,5,47,,anonymous,web,north korea,malware detected email attachment,,,ransomware,Phishing,1,Patch Vulnerability
+0.97,5,45,,lazarus group,email,usa,distributed denial service attack public website,,service,phishing,Ransomware,1,Increase Web Security
+0.73,3,26,,anonymous,email,usa,phishing email malicious link,,group device,phishing,Ransomware,1,Monitor for Phishing
+0.72,2,12,,lazarus group,email,germany,ransomware attack network vulnerability,,,phishing,Ransomware,5,Monitor for Phishing
+0.51,4,23,,unknown,network,russia,phishing scam targeting corporate account,,service,phishing,Ransomware,2,Quarantine
+0.62,2,22,,unknown,network,russia,phishing scam targeting corporate account,,,ddos,Ransomware,1,Monitor for Phishing
+0.93,5,36,,lazarus group,network,germany,distributed denial service attack public website,,group device,phishing,DDoS,4,Monitor for Phishing
+0.58,2,10,,unknown,email,germany,phishing email malicious link,,,phishing,Phishing,5,Quarantine
+0.71,4,26,,lazarus group,web,north korea,malware detected email attachment,,,ransomware,DDoS,3,Quarantine
+0.51,2,43,,,web,germany,phishing email malicious link,,group device,phishing,Malware,3,Increase Web Security
+0.74,2,23,,anonymous,network,global,phishing scam targeting corporate account,,,ransomware,Ransomware,4,Monitor for Phishing
+0.51,2,26,,,network,russia,distributed denial service attack public website,,service,malware,Phishing,2,Increase Web Security
+0.91,2,12,,lazarus group,web,germany,ransomware attack network vulnerability,,group device,phishing,Ransomware,1,Increase Web Security
+0.91,1,43,,anonymous,web,global,phishing email malicious link,,service,phishing,Phishing,5,Patch Vulnerability
+0.89,5,49,,lazarus group,network,global,phishing scam targeting corporate account,,,ransomware,DDoS,1,Monitor for Phishing
+0.64,4,34,,anonymous,network,global,malware detected email attachment,,group device,phishing,Phishing,5,Monitor for Phishing
+0.92,5,11,,anonymous,web,global,distributed denial service attack public website,,,ddos,Malware,3,Patch Vulnerability
+0.77,1,43,,anonymous,email,north korea,ransomware attack network vulnerability,,,ransomware,Malware,1,Increase Web Security
+0.69,1,35,,anonymous,network,global,phishing email malicious link,,service,ransomware,Phishing,4,Monitor for Phishing
+0.81,1,40,,lazarus group,web,north korea,malware detected email attachment,,service,malware,Phishing,2,Increase Web Security
+0.51,1,18,,anonymous,web,north korea,ransomware attack network vulnerability,,,ddos,Phishing,4,Patch Vulnerability
+0.57,2,39,,anonymous,web,global,phishing scam targeting corporate account,,,malware,Phishing,2,Quarantine
+0.87,5,29,,,web,russia,phishing scam targeting corporate account,,,ddos,Malware,1,Increase Web Security
+0.62,3,30,,unknown,email,global,malware detected email attachment,,,ransomware,Ransomware,1,Monitor for Phishing
+0.8,4,38,,unknown,web,global,phishing scam targeting corporate account,,service,malware,Phishing,2,Quarantine
+0.69,1,34,,,network,global,distributed denial service attack public website,,group device,phishing,Phishing,3,Increase Web Security
+0.93,5,47,,,email,russia,malware detected email attachment,,,ddos,Malware,5,Increase Web Security
+0.98,1,34,,lazarus group,web,usa,phishing scam targeting corporate account,,,ransomware,Malware,4,Quarantine
+0.94,1,18,,lazarus group,email,usa,phishing email malicious link,,group device,phishing,DDoS,4,Quarantine
+0.64,1,48,,lazarus group,network,north korea,phishing scam targeting corporate account,,,ddos,Phishing,4,Quarantine
+0.6,1,35,,,web,north korea,distributed denial service attack public website,,,ddos,DDoS,1,Monitor for Phishing
+0.74,1,46,,,network,russia,ransomware attack network vulnerability,,,phishing,Malware,4,Monitor for Phishing
+0.5,4,25,,anonymous,web,germany,ransomware attack network vulnerability,,,ddos,Malware,5,Increase Web Security
+0.51,5,46,,lazarus group,web,usa,phishing scam targeting corporate account,,,ddos,Ransomware,5,Increase Web Security
+0.78,1,21,,lazarus group,web,north korea,ransomware attack network vulnerability,,,phishing,Phishing,2,Patch Vulnerability
+0.76,1,33,,lazarus group,web,usa,phishing scam targeting corporate account,,group device,phishing,DDoS,1,Monitor for Phishing
+1.0,1,35,,unknown,web,russia,distributed denial service attack public website,,group device,malware,Malware,5,Increase Web Security
+0.6,1,29,,anonymous,email,russia,ransomware attack network vulnerability,,,ransomware,Malware,3,Quarantine
+0.63,2,18,,lazarus group,web,germany,phishing email malicious link,,,ransomware,DDoS,1,Quarantine
+0.56,2,32,,lazarus group,web,germany,phishing scam targeting corporate account,,,malware,Ransomware,1,Monitor for Phishing
+0.96,3,48,,lazarus group,email,russia,ransomware attack network vulnerability,,,ransomware,Malware,5,Quarantine
+0.89,1,38,,unknown,email,north korea,distributed denial service attack public website,,group device,ddos,Phishing,3,Patch Vulnerability
+0.91,3,40,,unknown,email,usa,distributed denial service attack public website,,service,malware,Malware,2,Increase Web Security
+0.95,4,28,,,email,global,phishing email malicious link,,service,malware,Phishing,5,Increase Web Security
+0.76,3,29,,anonymous,email,germany,distributed denial service attack public website,,,ransomware,DDoS,3,Increase Web Security
+0.73,5,32,,,email,global,distributed denial service attack public website,,,phishing,Phishing,1,Monitor for Phishing
+0.67,2,36,,anonymous,web,north korea,ransomware attack network vulnerability,,service,ransomware,DDoS,3,Quarantine
+0.79,2,39,,unknown,web,germany,phishing scam targeting corporate account,,,phishing,Phishing,1,Patch Vulnerability
+0.73,1,30,,lazarus group,network,global,malware detected email attachment,,group device,malware,DDoS,5,Monitor for Phishing
+0.73,1,44,,,web,north korea,distributed denial service attack public website,,,phishing,Phishing,5,Increase Web Security
+0.97,4,16,,lazarus group,web,usa,distributed denial service attack public website,,,ddos,Ransomware,4,Patch Vulnerability
+0.99,4,31,,,email,north korea,malware detected email attachment,,,phishing,Phishing,4,Increase Web Security
+0.9,5,19,,unknown,email,germany,distributed denial service attack public website,,group device,phishing,Phishing,4,Increase Web Security
+0.88,1,32,,unknown,web,russia,ransomware attack network vulnerability,,,phishing,Ransomware,5,Monitor for Phishing
+0.84,1,24,,unknown,network,usa,ransomware attack network vulnerability,,,ddos,Malware,2,Increase Web Security
+0.58,4,39,,,email,global,malware detected email attachment,,,phishing,Malware,5,Patch Vulnerability
+0.53,4,43,,anonymous,web,germany,distributed denial service attack public website,,,ddos,Phishing,3,Increase Web Security
+0.85,4,22,,,web,russia,distributed denial service attack public website,,,phishing,Ransomware,5,Quarantine
+0.86,2,13,,anonymous,network,north korea,phishing scam targeting corporate account,,,phishing,Phishing,5,Increase Web Security
+0.52,3,27,,,network,russia,distributed denial service attack public website,,group device,ransomware,DDoS,1,Monitor for Phishing
+0.96,3,32,,,email,germany,ransomware attack network vulnerability,,,phishing,DDoS,1,Patch Vulnerability
+0.55,1,42,,unknown,network,germany,phishing email malicious link,,group device,phishing,Phishing,1,Monitor for Phishing
+0.64,2,43,,lazarus group,web,russia,phishing email malicious link,,,malware,Malware,5,Quarantine
+0.84,4,43,,lazarus group,web,north korea,phishing email malicious link,,service,ransomware,Malware,2,Increase Web Security
+0.58,1,45,,anonymous,network,russia,phishing email malicious link,,service,phishing,Phishing,3,Monitor for Phishing
+0.53,2,44,,lazarus group,network,germany,distributed denial service attack public website,,,ransomware,Phishing,3,Monitor for Phishing
+0.67,5,26,,,network,germany,distributed denial service attack public website,,,phishing,DDoS,2,Monitor for Phishing
+0.88,2,37,,,network,global,phishing scam targeting corporate account,,service,ddos,Malware,2,Monitor for Phishing
+0.71,1,23,,unknown,email,global,distributed denial service attack public website,,,phishing,Phishing,3,Quarantine
+0.83,3,43,,unknown,network,usa,phishing email malicious link,,service,malware,DDoS,4,Quarantine
+0.79,4,20,,lazarus group,email,germany,malware detected email attachment,,,ransomware,Malware,1,Increase Web Security
+0.51,5,22,,anonymous,web,global,malware detected email attachment,,service,ransomware,Ransomware,1,Increase Web Security
+0.99,2,42,,lazarus group,network,russia,ransomware attack network vulnerability,,,ransomware,DDoS,3,Patch Vulnerability
+0.52,1,11,,lazarus group,email,north korea,ransomware attack network vulnerability,,group device,ransomware,Malware,2,Quarantine
+0.98,1,43,,lazarus group,network,russia,distributed denial service attack public website,,,phishing,Malware,4,Monitor for Phishing
+0.77,4,38,,lazarus group,web,north korea,malware detected email attachment,,group device,phishing,DDoS,3,Monitor for Phishing
+0.98,1,46,,,web,global,phishing email malicious link,,group device,phishing,Ransomware,1,Patch Vulnerability
+0.56,1,13,,anonymous,web,usa,phishing email malicious link,,,ddos,DDoS,5,Monitor for Phishing
+0.75,4,21,,,network,russia,phishing email malicious link,,group device,phishing,Malware,2,Patch Vulnerability
+0.58,5,35,,anonymous,network,russia,distributed denial service attack public website,,,phishing,Phishing,5,Increase Web Security
+0.53,3,37,,unknown,email,russia,distributed denial service attack public website,,group device,ddos,Phishing,3,Quarantine
+0.81,3,12,,lazarus group,web,north korea,phishing scam targeting corporate account,,,phishing,DDoS,1,Patch Vulnerability
+0.6,2,29,,,network,global,phishing email malicious link,,group device,phishing,Malware,4,Monitor for Phishing
+0.79,5,19,,anonymous,web,russia,phishing email malicious link,,,malware,Phishing,5,Patch Vulnerability
+0.56,2,27,,unknown,web,russia,distributed denial service attack public website,,,ddos,Malware,4,Increase Web Security
+0.67,3,36,,unknown,email,usa,distributed denial service attack public website,,,ransomware,DDoS,1,Monitor for Phishing
+0.89,4,40,,lazarus group,email,usa,phishing scam targeting corporate account,,group device,phishing,Phishing,5,Increase Web Security
+0.72,1,36,,anonymous,email,global,phishing scam targeting corporate account,,group device,malware,Malware,4,Increase Web Security
+0.81,3,10,,,email,global,ransomware attack network vulnerability,,service,phishing,Phishing,4,Patch Vulnerability
+0.82,5,15,,lazarus group,web,germany,malware detected email attachment,,service,phishing,DDoS,5,Increase Web Security
+0.92,3,20,,,email,usa,phishing email malicious link,,,ransomware,Malware,1,Monitor for Phishing
+0.66,5,43,,unknown,email,germany,phishing email malicious link,,,malware,Phishing,4,Increase Web Security
+0.84,5,48,,,email,north korea,phishing scam targeting corporate account,,,phishing,DDoS,3,Increase Web Security
+0.98,5,29,,,email,germany,phishing scam targeting corporate account,,service,ransomware,Phishing,5,Patch Vulnerability
+0.87,2,30,,lazarus group,web,russia,ransomware attack network vulnerability,,group device,ddos,Phishing,2,Increase Web Security
+0.74,4,30,,,email,germany,malware detected email attachment,,,ransomware,Ransomware,2,Quarantine
+0.82,3,27,,lazarus group,web,global,ransomware attack network vulnerability,,,phishing,Ransomware,1,Patch Vulnerability
+0.87,4,30,,unknown,network,north korea,malware detected email attachment,,group device,ransomware,DDoS,3,Patch Vulnerability
+0.81,1,28,,lazarus group,web,russia,phishing email malicious link,,group device,ransomware,Ransomware,4,Monitor for Phishing
+0.51,3,13,,lazarus group,web,germany,ransomware attack network vulnerability,,,ransomware,DDoS,2,Monitor for Phishing
+0.6,4,22,,anonymous,email,north korea,phishing scam targeting corporate account,,,phishing,Ransomware,1,Monitor for Phishing
+0.91,4,27,,,network,north korea,ransomware attack network vulnerability,,service,malware,Phishing,3,Monitor for Phishing
+0.64,1,38,,unknown,network,russia,ransomware attack network vulnerability,,service,ransomware,DDoS,3,Quarantine
+0.87,5,34,,lazarus group,network,germany,phishing email malicious link,,group device,ransomware,DDoS,1,Patch Vulnerability
+0.69,3,22,,unknown,network,north korea,phishing scam targeting corporate account,,group device,phishing,Phishing,1,Increase Web Security
+0.76,3,36,,anonymous,web,north korea,phishing scam targeting corporate account,,service,phishing,DDoS,4,Monitor for Phishing
+0.53,1,28,,,network,usa,distributed denial service attack public website,,service,ddos,DDoS,1,Monitor for Phishing
+0.59,5,10,,lazarus group,web,north korea,distributed denial service attack public website,,group device,ddos,Ransomware,4,Monitor for Phishing
+0.98,3,47,,,web,usa,distributed denial service attack public website,,,phishing,DDoS,4,Increase Web Security
+0.95,3,28,,anonymous,web,germany,phishing email malicious link,,group device,malware,Malware,5,Monitor for Phishing
+0.83,3,10,,anonymous,network,germany,ransomware attack network vulnerability,,,ddos,Phishing,3,Increase Web Security
+0.73,5,49,,unknown,email,germany,phishing scam targeting corporate account,,,malware,Ransomware,3,Patch Vulnerability
+0.84,1,26,,lazarus group,email,global,phishing scam targeting corporate account,,group device,phishing,Ransomware,3,Patch Vulnerability
+0.81,3,30,,unknown,network,germany,ransomware attack network vulnerability,,,ddos,Malware,5,Patch Vulnerability
+0.78,4,31,,anonymous,email,north korea,phishing scam targeting corporate account,,service,ransomware,Phishing,4,Quarantine
+0.53,5,24,,,email,russia,ransomware attack network vulnerability,,,phishing,Phishing,4,Increase Web Security
+0.82,2,48,,unknown,web,usa,phishing email malicious link,,group device,ddos,Ransomware,1,Monitor for Phishing
+0.88,1,48,,unknown,web,global,phishing email malicious link,,,malware,DDoS,5,Monitor for Phishing
+1.0,4,41,,,network,germany,phishing email malicious link,,group device,malware,Ransomware,1,Monitor for Phishing
+0.51,3,13,,unknown,network,germany,ransomware attack network vulnerability,,service,ddos,Phishing,5,Monitor for Phishing
+0.87,2,41,,,email,russia,ransomware attack network vulnerability,,,malware,Malware,1,Quarantine
+0.79,1,13,,lazarus group,web,russia,malware detected email attachment,,,ddos,Ransomware,2,Monitor for Phishing
+0.72,5,10,,,network,global,phishing scam targeting corporate account,,,ddos,Phishing,3,Quarantine
+0.56,2,42,,lazarus group,network,usa,phishing scam targeting corporate account,,,malware,Ransomware,3,Increase Web Security
+0.7,2,16,,,network,germany,malware detected email attachment,,,phishing,DDoS,4,Patch Vulnerability
+0.68,4,18,,anonymous,network,global,malware detected email attachment,,,ransomware,Ransomware,2,Monitor for Phishing
+0.65,1,10,,anonymous,network,north korea,phishing email malicious link,,,phishing,Ransomware,3,Patch Vulnerability
+0.87,4,25,,lazarus group,network,north korea,malware detected email attachment,,,ransomware,Phishing,4,Increase Web Security
+0.85,4,27,,lazarus group,email,global,ransomware attack network vulnerability,,,phishing,Phishing,2,Increase Web Security
+0.79,3,15,,anonymous,web,germany,distributed denial service attack public website,,,phishing,Phishing,3,Monitor for Phishing
+0.97,5,11,,lazarus group,web,global,ransomware attack network vulnerability,,group device,ransomware,Ransomware,1,Increase Web Security
+0.67,2,18,,,network,germany,malware detected email attachment,,service,ddos,DDoS,5,Patch Vulnerability
+0.62,1,13,,,web,russia,phishing scam targeting corporate account,,,malware,Malware,2,Monitor for Phishing
+0.83,5,32,,anonymous,web,global,ransomware attack network vulnerability,,,phishing,Malware,4,Quarantine
+0.6,5,17,,unknown,web,germany,phishing scam targeting corporate account,,,phishing,Phishing,2,Monitor for Phishing
+0.66,1,48,,,network,global,ransomware attack network vulnerability,,,phishing,Phishing,4,Patch Vulnerability
+0.61,5,34,,lazarus group,network,global,phishing scam targeting corporate account,,group device,ransomware,Ransomware,2,Monitor for Phishing
+0.53,3,25,,unknown,web,germany,ransomware attack network vulnerability,,,ransomware,Malware,4,Monitor for Phishing
+0.91,5,44,,unknown,web,germany,phishing scam targeting corporate account,,service,ddos,Phishing,3,Patch Vulnerability
+0.63,3,26,,,network,usa,distributed denial service attack public website,,service,phishing,DDoS,1,Monitor for Phishing
+0.74,2,27,,,email,global,phishing email malicious link,,,ddos,DDoS,3,Monitor for Phishing
+0.52,2,36,,unknown,web,north korea,ransomware attack network vulnerability,,group device,phishing,Phishing,1,Patch Vulnerability
+0.85,4,24,,unknown,email,global,distributed denial service attack public website,,service,ransomware,Phishing,3,Increase Web Security
+0.67,3,26,,anonymous,web,global,phishing email malicious link,,,malware,Malware,3,Patch Vulnerability
+0.87,2,14,,lazarus group,email,germany,ransomware attack network vulnerability,,,malware,Malware,2,Monitor for Phishing
+0.71,5,25,,anonymous,email,global,distributed denial service attack public website,,,malware,Ransomware,5,Quarantine
+0.6,1,24,,,email,global,distributed denial service attack public website,,,malware,Malware,4,Quarantine
+0.76,1,43,,anonymous,network,north korea,distributed denial service attack public website,,,phishing,DDoS,4,Patch Vulnerability
+0.57,3,28,,anonymous,email,germany,malware detected email attachment,,,phishing,DDoS,4,Quarantine
+0.72,4,17,,anonymous,email,global,phishing scam targeting corporate account,,,malware,Phishing,1,Monitor for Phishing
+0.66,5,19,,anonymous,email,russia,phishing email malicious link,,,phishing,Malware,4,Monitor for Phishing
+0.96,3,14,,lazarus group,web,usa,phishing scam targeting corporate account,,,phishing,Ransomware,4,Patch Vulnerability
+0.53,1,35,,lazarus group,email,north korea,phishing scam targeting corporate account,,,phishing,DDoS,2,Monitor for Phishing
+0.85,3,31,,unknown,web,global,phishing scam targeting corporate account,,,ddos,DDoS,3,Increase Web Security
+0.59,5,32,,,email,russia,distributed denial service attack public website,,,ddos,Ransomware,4,Monitor for Phishing
+0.66,2,22,,anonymous,email,global,phishing scam targeting corporate account,,,phishing,Ransomware,5,Patch Vulnerability
+0.71,5,18,,unknown,network,global,malware detected email attachment,,group device,malware,DDoS,4,Increase Web Security
+0.95,2,29,,unknown,web,germany,ransomware attack network vulnerability,,,phishing,DDoS,1,Increase Web Security
+0.62,2,37,,unknown,email,germany,distributed denial service attack public website,,,ransomware,Ransomware,1,Quarantine
+0.55,2,46,,lazarus group,web,germany,phishing email malicious link,,service,ddos,DDoS,1,Monitor for Phishing
+0.66,3,33,,anonymous,web,russia,ransomware attack network vulnerability,,service,malware,Phishing,4,Patch Vulnerability
+0.55,1,42,,anonymous,network,global,ransomware attack network vulnerability,,group device,malware,Phishing,2,Quarantine
+0.56,3,29,,,network,usa,ransomware attack network vulnerability,,group device,ransomware,Ransomware,5,Quarantine
+0.79,1,39,,anonymous,network,north korea,phishing scam targeting corporate account,,,ransomware,Malware,4,Monitor for Phishing
+0.53,5,18,,anonymous,network,germany,phishing scam targeting corporate account,,,malware,Ransomware,2,Monitor for Phishing
+0.52,4,26,,unknown,network,germany,distributed denial service attack public website,,group device,ransomware,Ransomware,2,Patch Vulnerability
+0.86,5,45,,,network,global,phishing scam targeting corporate account,,,malware,Malware,4,Quarantine
+0.68,3,23,,anonymous,network,global,phishing scam targeting corporate account,,,ransomware,Malware,4,Patch Vulnerability
+0.56,3,28,,lazarus group,network,russia,phishing scam targeting corporate account,,service,ransomware,Malware,2,Quarantine
+0.63,1,16,,anonymous,email,russia,distributed denial service attack public website,,,malware,Phishing,2,Quarantine
+0.82,3,12,,unknown,web,germany,distributed denial service attack public website,,,phishing,DDoS,2,Quarantine
+0.64,2,42,,lazarus group,network,global,malware detected email attachment,,,malware,Phishing,4,Monitor for Phishing
+0.75,3,41,,unknown,network,usa,malware detected email attachment,,service,phishing,DDoS,2,Quarantine
+0.56,1,20,,anonymous,web,north korea,malware detected email attachment,,,ransomware,Phishing,1,Quarantine
+0.79,1,11,,lazarus group,email,global,malware detected email attachment,,,ddos,DDoS,4,Quarantine
+0.66,2,35,,,web,global,ransomware attack network vulnerability,,group device,ransomware,Phishing,1,Increase Web Security
+0.81,1,13,,,web,russia,ransomware attack network vulnerability,,service,phishing,Malware,3,Monitor for Phishing
+0.9,4,26,,lazarus group,network,north korea,malware detected email attachment,,,ddos,Ransomware,4,Increase Web Security
+0.81,5,26,,lazarus group,web,germany,malware detected email attachment,,group device,ddos,Phishing,3,Monitor for Phishing
+0.65,3,37,,unknown,web,global,phishing email malicious link,,,malware,DDoS,2,Patch Vulnerability
+0.63,4,39,,lazarus group,network,germany,ransomware attack network vulnerability,,,phishing,Malware,2,Increase Web Security
+0.66,3,49,,unknown,network,global,phishing email malicious link,,,malware,Phishing,5,Patch Vulnerability
+0.58,4,32,,anonymous,network,germany,phishing email malicious link,,service,ddos,Phishing,2,Quarantine
+0.59,3,33,,unknown,network,north korea,phishing scam targeting corporate account,,,ddos,Malware,3,Patch Vulnerability
+0.9,2,38,,lazarus group,web,russia,distributed denial service attack public website,,,phishing,Phishing,2,Patch Vulnerability
+0.69,1,13,,lazarus group,web,north korea,ransomware attack network vulnerability,,service,ransomware,Ransomware,4,Patch Vulnerability
+0.72,1,47,,anonymous,email,usa,malware detected email attachment,,service,phishing,Phishing,2,Patch Vulnerability
+0.8,2,38,,lazarus group,email,russia,malware detected email attachment,,,malware,Ransomware,5,Monitor for Phishing
+0.79,4,28,,lazarus group,web,north korea,distributed denial service attack public website,,,ransomware,Ransomware,2,Increase Web Security
+0.53,5,36,,,email,usa,ransomware attack network vulnerability,,,malware,Malware,3,Monitor for Phishing
+0.92,4,38,,,web,global,malware detected email attachment,,,phishing,Phishing,3,Monitor for Phishing
+0.59,1,45,,anonymous,email,global,malware detected email attachment,,group device,ransomware,Malware,2,Monitor for Phishing
+0.86,5,44,,unknown,network,germany,phishing scam targeting corporate account,,,phishing,Phishing,3,Patch Vulnerability
+0.89,3,15,,,email,russia,phishing email malicious link,,,phishing,Phishing,3,Monitor for Phishing
+0.86,5,32,,unknown,network,global,malware detected email attachment,,service,ddos,DDoS,5,Increase Web Security
+0.79,4,48,,lazarus group,network,russia,ransomware attack network vulnerability,,,ransomware,Phishing,4,Monitor for Phishing
+0.51,2,17,,,network,global,distributed denial service attack public website,,,ddos,Malware,5,Quarantine
+0.68,3,11,,anonymous,network,germany,phishing scam targeting corporate account,,,phishing,Ransomware,1,Patch Vulnerability
+0.8,4,22,,anonymous,email,north korea,ransomware attack network vulnerability,,,ransomware,Phishing,5,Quarantine
+0.69,3,49,,anonymous,web,germany,phishing scam targeting corporate account,,,ddos,DDoS,2,Increase Web Security
+0.93,5,30,,,network,usa,phishing email malicious link,,service,ddos,Malware,4,Increase Web Security
+0.65,1,40,,unknown,email,global,malware detected email attachment,,,ransomware,Phishing,2,Increase Web Security
+0.65,4,45,,lazarus group,network,usa,ransomware attack network vulnerability,,,ddos,Malware,1,Increase Web Security
+0.63,2,47,,unknown,email,usa,distributed denial service attack public website,,service,ddos,DDoS,4,Monitor for Phishing
+0.67,5,36,,unknown,email,russia,phishing email malicious link,,service,ransomware,DDoS,3,Patch Vulnerability
+0.78,4,45,,lazarus group,email,global,phishing email malicious link,,,ddos,Malware,5,Increase Web Security
+0.85,2,32,,lazarus group,web,usa,phishing scam targeting corporate account,,,ddos,Phishing,2,Quarantine
+0.83,4,30,,,email,north korea,phishing email malicious link,,group device,malware,Ransomware,1,Increase Web Security
+0.9,5,22,,,email,usa,ransomware attack network vulnerability,,group device,malware,DDoS,3,Patch Vulnerability
+0.94,4,46,,,web,north korea,phishing scam targeting corporate account,,service,phishing,Phishing,5,Quarantine
+0.91,3,35,,,web,russia,phishing email malicious link,,group device,malware,Phishing,3,Quarantine
+0.51,5,49,,,email,usa,distributed denial service attack public website,,,malware,Ransomware,5,Quarantine
+0.87,4,16,,lazarus group,web,germany,ransomware attack network vulnerability,,,phishing,DDoS,4,Monitor for Phishing
+0.6,1,48,,unknown,network,russia,distributed denial service attack public website,,service,ddos,DDoS,3,Increase Web Security
+0.57,4,31,,,network,north korea,distributed denial service attack public website,,,ddos,Phishing,3,Monitor for Phishing
+0.82,3,48,,,web,russia,phishing scam targeting corporate account,,group device,malware,Phishing,3,Quarantine
+0.66,2,32,,unknown,web,usa,malware detected email attachment,,,phishing,Ransomware,4,Monitor for Phishing
+0.53,2,39,,,email,global,phishing scam targeting corporate account,,service,ddos,Ransomware,1,Monitor for Phishing
+0.57,2,27,,unknown,web,global,ransomware attack network vulnerability,,group device,phishing,DDoS,5,Monitor for Phishing
+0.5,1,27,,unknown,email,north korea,ransomware attack network vulnerability,,,ransomware,Malware,3,Increase Web Security
+0.95,3,19,,lazarus group,network,north korea,phishing scam targeting corporate account,,service,ransomware,DDoS,4,Quarantine
+0.51,5,48,,anonymous,web,global,malware detected email attachment,,service,ransomware,Phishing,1,Quarantine
+0.6,2,39,,lazarus group,email,north korea,phishing scam targeting corporate account,,,malware,DDoS,5,Increase Web Security
+0.71,3,35,,anonymous,email,russia,ransomware attack network vulnerability,,service,ransomware,Malware,4,Monitor for Phishing
+0.68,4,16,,anonymous,network,germany,malware detected email attachment,,,ransomware,Ransomware,5,Monitor for Phishing
+0.96,1,16,,anonymous,web,germany,ransomware attack network vulnerability,,group device,phishing,Malware,3,Patch Vulnerability
+0.52,3,14,,,network,russia,malware detected email attachment,,,ddos,Malware,1,Patch Vulnerability
+0.76,3,10,,lazarus group,email,germany,malware detected email attachment,,,phishing,Malware,4,Patch Vulnerability
+0.84,5,27,,anonymous,email,usa,phishing scam targeting corporate account,,service,malware,Ransomware,1,Increase Web Security
+0.97,3,22,,unknown,web,russia,phishing scam targeting corporate account,,service,ransomware,Malware,3,Quarantine
+0.81,5,34,,,email,north korea,phishing scam targeting corporate account,,group device,ddos,Malware,1,Patch Vulnerability
+0.9,1,49,,lazarus group,web,russia,malware detected email attachment,,,ransomware,Malware,1,Quarantine
+0.54,1,17,,anonymous,network,global,malware detected email attachment,,,ransomware,Phishing,2,Quarantine
+0.69,4,19,,unknown,web,north korea,ransomware attack network vulnerability,,,malware,Malware,1,Quarantine
+0.69,5,41,,lazarus group,web,global,distributed denial service attack public website,,group device,ransomware,Ransomware,5,Increase Web Security
+0.94,5,26,,lazarus group,email,north korea,phishing scam targeting corporate account,,,phishing,Malware,4,Increase Web Security
+0.58,2,47,,,email,germany,ransomware attack network vulnerability,,,ddos,Malware,2,Increase Web Security
+0.58,2,24,,lazarus group,web,russia,ransomware attack network vulnerability,,,ddos,Ransomware,4,Increase Web Security
+0.66,4,24,,,email,usa,phishing email malicious link,,group device,phishing,Malware,4,Patch Vulnerability
+0.53,1,49,,anonymous,email,north korea,phishing scam targeting corporate account,,group device,malware,Ransomware,3,Monitor for Phishing
+0.59,2,29,,,email,north korea,ransomware attack network vulnerability,,,ransomware,Malware,3,Monitor for Phishing
+0.98,3,24,,unknown,web,global,phishing email malicious link,,,ransomware,Ransomware,2,Monitor for Phishing
+0.71,1,44,,,email,germany,phishing scam targeting corporate account,,,ddos,Malware,3,Patch Vulnerability
+0.82,3,15,,unknown,web,global,malware detected email attachment,,group device,malware,Malware,3,Monitor for Phishing
+0.86,5,39,,,email,global,phishing email malicious link,,,malware,Phishing,3,Patch Vulnerability
+0.68,1,17,,lazarus group,network,germany,malware detected email attachment,,,malware,Phishing,4,Patch Vulnerability
+0.57,4,40,,anonymous,email,usa,distributed denial service attack public website,,,ransomware,Malware,2,Patch Vulnerability
+0.6,5,41,,unknown,email,global,distributed denial service attack public website,,,malware,Malware,4,Monitor for Phishing
+0.66,5,24,,,web,global,distributed denial service attack public website,,,phishing,DDoS,5,Quarantine
+0.82,3,27,,,web,north korea,distributed denial service attack public website,,,phishing,Ransomware,4,Monitor for Phishing
+0.7,5,22,,,email,germany,ransomware attack network vulnerability,,,malware,DDoS,5,Monitor for Phishing
+0.5,2,33,,lazarus group,network,russia,distributed denial service attack public website,,,phishing,Phishing,1,Increase Web Security
+0.76,1,49,,lazarus group,email,usa,ransomware attack network vulnerability,,,ransomware,Phishing,1,Patch Vulnerability
+0.96,2,23,,unknown,email,usa,ransomware attack network vulnerability,,,malware,Phishing,5,Quarantine
+0.91,3,37,,unknown,network,germany,phishing scam targeting corporate account,,group device,ddos,Phishing,5,Increase Web Security
+0.91,3,20,,lazarus group,web,north korea,ransomware attack network vulnerability,,,ransomware,Malware,4,Quarantine
+0.9,1,15,,unknown,email,north korea,ransomware attack network vulnerability,,,phishing,Phishing,5,Quarantine
+0.66,5,34,,anonymous,web,germany,distributed denial service attack public website,,,phishing,Malware,2,Patch Vulnerability
+0.88,4,10,,anonymous,web,north korea,ransomware attack network vulnerability,,,phishing,Malware,1,Monitor for Phishing
+0.57,3,34,,lazarus group,network,usa,malware detected email attachment,,,phishing,Phishing,1,Patch Vulnerability
+0.83,1,11,,unknown,network,usa,distributed denial service attack public website,,group device,ddos,Phishing,5,Patch Vulnerability
+0.82,4,41,,,web,russia,phishing email malicious link,,,ddos,Ransomware,3,Increase Web Security
+0.51,5,22,,anonymous,email,germany,distributed denial service attack public website,,group device,phishing,DDoS,3,Patch Vulnerability
+0.89,3,42,,lazarus group,web,global,ransomware attack network vulnerability,,service,malware,Phishing,5,Monitor for Phishing
+0.95,1,41,,unknown,email,global,malware detected email attachment,,,phishing,Ransomware,2,Quarantine
+0.63,1,33,,lazarus group,email,russia,distributed denial service attack public website,,,phishing,Ransomware,3,Patch Vulnerability
+0.91,1,36,,,network,russia,malware detected email attachment,,,ddos,DDoS,5,Quarantine
+0.54,3,13,,anonymous,email,north korea,phishing email malicious link,,,phishing,Malware,2,Patch Vulnerability
+0.8,4,33,,lazarus group,email,russia,phishing email malicious link,,,ddos,Phishing,2,Quarantine
+0.74,1,32,,lazarus group,web,russia,phishing scam targeting corporate account,,,ddos,DDoS,4,Patch Vulnerability
+0.77,5,38,,lazarus group,network,global,phishing scam targeting corporate account,,group device,ddos,Phishing,2,Increase Web Security
+0.96,1,43,,,email,north korea,distributed denial service attack public website,,,phishing,Ransomware,3,Quarantine
+0.94,4,30,,lazarus group,email,russia,phishing scam targeting corporate account,,,malware,Ransomware,3,Patch Vulnerability
+0.89,3,39,,,network,russia,malware detected email attachment,,service,phishing,Malware,5,Patch Vulnerability
+0.64,1,35,,,web,north korea,phishing scam targeting corporate account,,,ransomware,Ransomware,5,Increase Web Security
+0.96,1,29,,,network,germany,malware detected email attachment,,,ddos,Ransomware,2,Increase Web Security
+0.55,5,25,,anonymous,network,north korea,phishing scam targeting corporate account,,,ddos,DDoS,1,Increase Web Security
+0.93,5,12,,anonymous,email,global,phishing scam targeting corporate account,,group device,ransomware,Phishing,4,Quarantine
+0.66,1,46,,lazarus group,email,germany,phishing scam targeting corporate account,,,ddos,Phishing,1,Quarantine
+0.53,1,49,,lazarus group,web,usa,ransomware attack network vulnerability,,group device,ddos,DDoS,2,Increase Web Security
+0.83,5,34,,anonymous,email,north korea,ransomware attack network vulnerability,,,ddos,Malware,2,Monitor for Phishing
+0.62,4,32,,unknown,email,global,phishing scam targeting corporate account,,service,ransomware,Phishing,1,Monitor for Phishing
+0.62,2,10,,anonymous,network,germany,malware detected email attachment,,,phishing,Ransomware,4,Patch Vulnerability
+0.65,2,42,,,email,north korea,distributed denial service attack public website,,,ddos,Phishing,1,Monitor for Phishing
+0.53,1,24,,anonymous,web,russia,phishing email malicious link,,group device,malware,Ransomware,5,Patch Vulnerability
+0.59,5,26,,,network,north korea,ransomware attack network vulnerability,,,ransomware,Malware,3,Quarantine
+0.5,3,43,,lazarus group,web,usa,phishing scam targeting corporate account,,,phishing,DDoS,5,Quarantine
+0.72,3,26,,unknown,network,north korea,phishing email malicious link,,service,ransomware,Phishing,3,Monitor for Phishing
+0.54,2,13,,lazarus group,email,germany,ransomware attack network vulnerability,,group device,phishing,DDoS,2,Quarantine
+0.84,4,22,,,network,germany,distributed denial service attack public website,,,ransomware,Phishing,4,Increase Web Security
+0.62,2,13,,,network,north korea,malware detected email attachment,,,phishing,Ransomware,1,Increase Web Security
+0.97,1,16,,,email,germany,phishing scam targeting corporate account,,group device,malware,DDoS,4,Monitor for Phishing
+0.94,4,18,,unknown,email,russia,distributed denial service attack public website,,,phishing,Phishing,1,Monitor for Phishing
+0.64,3,32,,anonymous,web,north korea,ransomware attack network vulnerability,,,ransomware,Ransomware,5,Patch Vulnerability
+0.89,5,42,,lazarus group,web,russia,phishing scam targeting corporate account,,,phishing,DDoS,5,Quarantine
+0.9,5,42,,lazarus group,email,russia,phishing email malicious link,,,ransomware,DDoS,1,Patch Vulnerability
+0.99,1,29,,anonymous,email,global,malware detected email attachment,,,malware,Phishing,4,Patch Vulnerability
+0.8,2,13,,lazarus group,email,north korea,ransomware attack network vulnerability,,,malware,Phishing,1,Increase Web Security
+0.54,1,10,,unknown,network,germany,malware detected email attachment,,,phishing,Phishing,2,Increase Web Security
+0.82,5,43,,lazarus group,network,russia,phishing scam targeting corporate account,,,malware,Ransomware,5,Increase Web Security
+0.81,3,36,,,network,global,distributed denial service attack public website,,group device,ddos,Phishing,2,Increase Web Security
+0.82,5,30,,anonymous,email,north korea,malware detected email attachment,,service,phishing,DDoS,5,Patch Vulnerability
+0.65,4,33,,unknown,web,north korea,phishing email malicious link,,service,phishing,DDoS,5,Increase Web Security
+0.93,5,24,,anonymous,email,usa,ransomware attack network vulnerability,,,ransomware,Phishing,3,Quarantine
+0.98,5,44,,unknown,network,usa,phishing email malicious link,,service,malware,Phishing,2,Increase Web Security
+0.61,4,34,,,network,russia,malware detected email attachment,,service,phishing,Malware,2,Increase Web Security
+0.54,2,18,,anonymous,email,usa,distributed denial service attack public website,,,phishing,DDoS,3,Increase Web Security
+0.6,5,26,,lazarus group,email,russia,distributed denial service attack public website,,,phishing,Ransomware,4,Monitor for Phishing
+0.91,1,30,,unknown,network,germany,phishing email malicious link,,group device,ddos,Malware,2,Quarantine
+0.84,5,22,,anonymous,network,russia,phishing scam targeting corporate account,,,malware,Phishing,1,Quarantine
+0.82,1,12,,lazarus group,network,usa,phishing scam targeting corporate account,,,phishing,Phishing,3,Patch Vulnerability
+0.7,4,13,,anonymous,email,germany,distributed denial service attack public website,,,ddos,DDoS,2,Patch Vulnerability
+0.79,5,13,,anonymous,network,usa,phishing email malicious link,,,phishing,Phishing,4,Increase Web Security
+0.65,4,37,,anonymous,network,russia,phishing email malicious link,,service,ransomware,Ransomware,2,Monitor for Phishing
+0.74,4,16,,unknown,web,global,phishing email malicious link,,group device,malware,DDoS,5,Patch Vulnerability
+0.9,2,35,,lazarus group,email,north korea,malware detected email attachment,,service,malware,Phishing,1,Patch Vulnerability
+0.99,5,20,,,web,usa,phishing scam targeting corporate account,,,phishing,DDoS,3,Increase Web Security
+0.97,1,33,,unknown,web,russia,phishing scam targeting corporate account,,,malware,Phishing,5,Increase Web Security
+0.97,1,19,,unknown,network,germany,malware detected email attachment,,service,malware,Phishing,4,Patch Vulnerability
+0.7,5,46,,unknown,email,usa,ransomware attack network vulnerability,,,malware,Phishing,5,Patch Vulnerability
+0.73,2,22,,,network,usa,malware detected email attachment,,,malware,Ransomware,5,Quarantine
+0.85,2,48,,lazarus group,email,north korea,phishing email malicious link,,,ddos,Ransomware,4,Monitor for Phishing
+0.96,2,28,,lazarus group,web,russia,malware detected email attachment,,,ddos,DDoS,5,Quarantine
+0.57,1,28,,lazarus group,email,global,phishing email malicious link,,,ransomware,Phishing,3,Patch Vulnerability
+0.65,4,21,,anonymous,network,germany,distributed denial service attack public website,,,malware,Phishing,2,Quarantine
+0.57,2,31,,anonymous,network,russia,phishing email malicious link,,,phishing,Ransomware,5,Quarantine
+0.81,1,46,,anonymous,network,germany,phishing scam targeting corporate account,,service,phishing,Phishing,3,Patch Vulnerability
+0.65,1,39,,,email,usa,malware detected email attachment,,group device,ransomware,Ransomware,2,Increase Web Security
+0.66,4,21,,anonymous,web,north korea,phishing email malicious link,,,phishing,Phishing,2,Patch Vulnerability
+0.54,5,38,,,web,north korea,ransomware attack network vulnerability,,,phishing,DDoS,5,Increase Web Security
+0.67,5,30,,lazarus group,email,global,distributed denial service attack public website,,,malware,Phishing,3,Patch Vulnerability
+0.93,2,20,,anonymous,network,north korea,ransomware attack network vulnerability,,,phishing,Phishing,5,Patch Vulnerability
+0.62,2,46,,anonymous,web,usa,ransomware attack network vulnerability,,,phishing,Malware,4,Patch Vulnerability
+0.85,4,27,,unknown,network,global,ransomware attack network vulnerability,,,phishing,Ransomware,2,Monitor for Phishing
+0.81,2,36,,,email,russia,distributed denial service attack public website,,group device,ransomware,Phishing,5,Increase Web Security
+0.93,4,46,,lazarus group,network,north korea,distributed denial service attack public website,,,phishing,Phishing,2,Monitor for Phishing
+0.57,1,21,,unknown,web,global,distributed denial service attack public website,,group device,phishing,Malware,3,Patch Vulnerability
+0.99,2,32,,unknown,web,usa,distributed denial service attack public website,,,phishing,Malware,1,Quarantine
+0.79,1,43,,lazarus group,network,germany,ransomware attack network vulnerability,,,phishing,Ransomware,5,Monitor for Phishing
+1.0,3,47,,unknown,email,germany,phishing scam targeting corporate account,,,ransomware,Malware,5,Increase Web Security
+0.96,4,32,,,network,usa,phishing scam targeting corporate account,,service,ransomware,DDoS,2,Patch Vulnerability
+0.61,3,34,,,email,usa,distributed denial service attack public website,,,ransomware,Malware,3,Monitor for Phishing
+0.53,2,13,,anonymous,network,germany,malware detected email attachment,,service,malware,DDoS,4,Quarantine
+0.63,1,39,,unknown,web,global,phishing email malicious link,,group device,phishing,Ransomware,3,Monitor for Phishing
+0.76,2,39,,anonymous,email,germany,malware detected email attachment,,group device,phishing,Ransomware,5,Increase Web Security
+0.59,3,22,,unknown,email,usa,malware detected email attachment,,,ransomware,Ransomware,4,Monitor for Phishing
+0.58,2,23,,,email,north korea,malware detected email attachment,,group device,phishing,Ransomware,3,Quarantine
+0.73,5,17,,,web,russia,phishing scam targeting corporate account,,,phishing,Ransomware,1,Quarantine
+0.52,3,33,,,network,north korea,phishing email malicious link,,group device,malware,DDoS,2,Increase Web Security

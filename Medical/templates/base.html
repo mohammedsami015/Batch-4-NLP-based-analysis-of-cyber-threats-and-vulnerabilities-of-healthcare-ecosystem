@@ -1,0 +1,258 @@
+<!-- Base layout template -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}NLP-Based Analysis of Cyber Threats and Vulnerabilities of the Healthcare Ecosystem{% endblock %}</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Add our app stylesheet -->
+    <!-- Updated to include 'Medical/' app subfolder -->
+    <link rel="stylesheet" href="{% static 'Medical/css/app.css' %}">
+
+    <style>
+        body {
+            background: url("https://www.smartosc.com/wp-content/uploads/2024/08/Untitled-900-x-600-px-26-e1728989917417.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .navbar-custom {
+            background: rgba(0, 0, 0, 0.75);
+            padding: 15px;
+        }
+
+        .navbar-custom a {
+            color: white !important;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-toggler {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.6);
+            margin: 60px auto;
+            padding: 30px;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.6);
+        }
+    </style>
+    <!-- Add global background image for all pages -->
+    <style>
+        body.page-bg {
+            /* CHANGED: point to the correct static image file (background.jpeg) */
+            background: url("{% static 'Medical/images/background.jpeg' %}") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Optional: make common content boxes readable over the background */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 8px;
+            padding: 20px;
+        }
+    </style>
+
+    <!-- Insert: polished theme overrides to unify look-and-feel -->
+    <style>
+        :root {
+            --overlay: rgba(16, 20, 28, 0.55);
+            --surface: rgba(255, 255, 255, 0.9);
+            --text-on-surface: #1c2331;
+        }
+
+        /* Soft overlay for readability */
+        body.page-bg::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: var(--overlay);
+            z-index: 0;
+        }
+
+        /* Ensure page content sits above the overlay */
+        body.page-bg > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Unified content box style */
+        .content-box {
+            background-color: var(--surface);
+            color: var(--text-on-surface);
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            backdrop-filter: blur(3px);
+        }
+
+        /* Navbar refinements */
+        .navbar-custom {
+            backdrop-filter: saturate(120%) blur(6px);
+            border-bottom: 1px solid rgba(255,255,255,0.12);
+        }
+        .navbar-custom .nav-link {
+            color: #fff !important;
+            opacity: 0.9;
+        }
+        .navbar-custom .nav-link:hover,
+        .navbar-custom .nav-link:focus {
+            opacity: 1;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        /* Footer styling */
+        .app-footer {
+            background: rgba(0, 0, 0, 0.65);
+            color: #fff;
+            padding: 24px 0;
+            border-top: 1px solid rgba(255,255,255,0.12);
+        }
+
+        /* Utility spacing for containers */
+        .container {
+            max-width: 1100px;
+        }
+    </style>
+    <!-- Glass card + gradient button (shared across pages) -->
+    <style>
+      :root {
+        --glass-bg: rgba(20, 24, 35, 0.68);
+        --glass-border: rgba(255, 255, 255, 0.08);
+        --glass-text: #e5e7eb;
+        --input-bg: rgba(255, 255, 255, 0.08);
+        --input-border: rgba(255, 255, 255, 0.15);
+        --primary-grad: linear-gradient(90deg,#7b2cff 0%,#ff3d2e 100%);
+      }
+
+      .glass-card {
+        background: var(--glass-bg);
+        color: var(--glass-text);
+        border: 1px solid var(--glass-border);
+        border-radius: 22px;
+        padding: 28px 32px;
+        backdrop-filter: blur(14px) saturate(120%);
+        box-shadow: 0 28px 60px rgba(0,0,0,0.45), 0 6px 18px rgba(0,0,0,0.35);
+      }
+
+      .glass-card h1, .glass-card h2, .glass-card h3, .glass-card label {
+        color: #f8fafc;
+      }
+
+      /* Inputs inside the glass card */
+      .glass-card .form-control,
+      .glass-card input[type="text"],
+      .glass-card input[type="password"],
+      .glass-card input[type="email"],
+      .glass-card select, .glass-card textarea {
+        background: var(--input-bg);
+        border: 1px solid var(--input-border);
+        color: var(--glass-text);
+        border-radius: 12px;
+        padding: 12px 14px;
+      }
+      .glass-card ::placeholder { color: #cbd5e1; }
+      .glass-card .form-check-input { background: var(--input-bg); border-color: var(--input-border); }
+
+      /* Gradient button */
+      .btn-gradient {
+        background: var(--primary-grad);
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        padding: 12px 20px;
+        font-weight: 600;
+        box-shadow: 0 10px 24px rgba(123,44,255,0.45);
+        transition: transform .15s ease, box-shadow .3s ease, filter .3s ease;
+      }
+      .btn-gradient:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 14px 32px rgba(123,44,255,0.55);
+        filter: brightness(1.05);
+      }
+
+      /* Optional helper for centering pages with a single card */
+      .page-center {
+        min-height: 80vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+    </style>
+</head>
+<body class="page-bg">
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="{% url 'home' %}">
+             NLP-Based Analysis of Cyber Threats and Vulnerabilities of the Healthcare Ecosystem
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                {% if request.session.username %}
+                    <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'upload_test_dataset' %}">Prediction</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger" href="{% url 'logout' %}">Logout</a></li>
+                {% else %}
+                    <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'signup' %}">Signup</a></li>
+                {% endif %}
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Global alert area for Django messages -->
+<div class="container mt-3">
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags|default:'info' }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- Professional footer -->
+<footer class="app-footer mt-5">
+    <div class="container text-center">
+        <div class="small text-muted">© {{ now|date:"Y" }} Healthcare Cyber Threat Analysis</div>
+        <div class="small">Secure. Scalable. Insightful.</div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

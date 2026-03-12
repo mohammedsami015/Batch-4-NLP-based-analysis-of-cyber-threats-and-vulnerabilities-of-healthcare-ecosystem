@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Dataset{% endblock %}
+
+{% block content %}
+<div class="content-box">
+    <h3 class="text-center">Upload Test Dataset</h3>
+
+    <form method="POST" enctype="multipart/form-data" action="{% url 'predict' %}">
+        {% csrf_token %}
+        <label>Select CSV File:</label>
+        <input type="file" name="testfile" accept=".csv" class="form-control" required>
+        <br>
+        <button type="submit" class="btn btn-warning w-100">Run Prediction</button>
+    </form>
+
+    <p class="text-center mt-3">
+        <a href="{% url 'logout' %}" class="text-danger">Logout</a>
+    </p>
+</div>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block title %}Signup{% endblock %}
+{% block content %}
+
+<!-- New styles: golden button + glassy blackish card -->
+<style>
+  /* Golden yellow button */
+  .btn-golden {
+    background: linear-gradient(135deg, #C99700 0%, #FFD700 100%);
+    color: #1a1a1a;
+    font-weight: 600;
+    border: 0;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+  }
+  .btn-golden:hover {
+    background: linear-gradient(135deg, #B8860B 0%, #FFC107 100%);
+    color: #000;
+  }
+
+  /* Glassy blackish card */
+  .glass-card {
+    background: rgba(15, 15, 20, 0.65);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #f1f1f1;
+  }
+
+  /* Optional: darker inputs for the glass card */
+  .glass-card .form-control {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #f1f1f1;
+  }
+  .glass-card .form-control::placeholder {
+    color: rgba(241, 241, 241, 0.6);
+  }
+</style>
+
+<div class="page-center">
+  <div class="glass-card">
+    <h3 class="text-center">Create Account</h3>
+
+    {% if messages %}
+        {% for msg in messages %}
+            <p class="text-warning">{{ msg }}</p>
+        {% endfor %}
+    {% endif %}
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <label>Username</label>
+        <input type="text" name="username" class="form-control" required>
+
+        <label>Email</label>
+        <input type="email" name="email" class="form-control" required>
+
+        <label>Password</label>
+        <input type="password" name="password" class="form-control" required>
+
+        <br>
+        <!-- Changed button: golden yellow "Start Prediction" -->
+        <button type="submit" class="btn btn-golden w-100">Start Prediction</button>
+    </form>
+  </div>
+</div>
+<p class="text-center mt-3">
+    Already have an account?
+    <a href="{% url 'login' %}" class="text-info">Login</a>
+</p>
+{% endblock %}

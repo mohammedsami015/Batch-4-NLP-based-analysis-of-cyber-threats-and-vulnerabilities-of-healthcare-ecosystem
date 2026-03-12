@@ -1,0 +1,65 @@
+IOCs (Indicators of Compromise),Threat Actor,Attack Vector,Geographical Location,Sentiment in Forums,Risk Level Prediction,Cleaned Threat Description,Keyword Extraction,Named Entities (NER),Topic Modeling Labels,Word Count
+['123.456.78.9'],APT-28,Email,North Korea,0.99,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware,47
+"['10.0.0.2', 'infected.exe']",Lazarus Group,Network,USA,0.97,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing,31
+"['malwarehash123', 'trojan.com']",APT-28,Email,North Korea,0.87,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware,24
+"['192.168.1.1', 'malicious.com']",Lazarus Group,Web,Global,0.64,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS,46
+"['malwarehash123', 'trojan.com']",Unknown,Email,Germany,0.57,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS,24
+"['malicious.net', 'spam.exe']",APT-28,Web,North Korea,0.93,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware,34
+['123.456.78.9'],Lazarus Group,Email,Germany,0.58,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing,30
+"['192.168.1.1', 'malicious.com']",Anonymous,Web,North Korea,0.93,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing,47
+"['192.168.1.1', 'malicious.com']",Anonymous,Network,Global,0.75,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing,11
+"['malicious.net', 'spam.exe']",APT-28,Web,USA,0.7,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware,36
+"['malicious.net', 'spam.exe']",APT-28,Network,Global,0.95,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing,41
+"['10.0.0.2', 'infected.exe']",Unknown,Network,USA,0.8,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing,30
+['123.456.78.9'],APT-28,Web,USA,0.79,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware,13
+['123.456.78.9'],Unknown,Email,Germany,0.78,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware,28
+"['malwarehash123', 'trojan.com']",Unknown,Email,Global,0.69,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware,11
+"['10.0.0.2', 'infected.exe']",Anonymous,Email,North Korea,0.89,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing,35
+"['10.0.0.2', 'infected.exe']",Anonymous,Email,Global,0.63,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS,43
+"['10.0.0.2', 'infected.exe']",Lazarus Group,Email,Germany,0.97,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware,23
+"['10.0.0.2', 'infected.exe']",Anonymous,Network,USA,0.95,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing,24
+['123.456.78.9'],Anonymous,Email,Germany,0.67,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing,29
+['123.456.78.9'],APT-28,Network,Russia,0.86,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing,43
+"['10.0.0.2', 'infected.exe']",Anonymous,Network,Russia,0.79,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS,45
+"['malwarehash123', 'trojan.com']",Lazarus Group,Network,North Korea,0.67,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS,28
+"['192.168.1.1', 'malicious.com']",APT-28,Web,Germany,0.99,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS,18
+"['192.168.1.1', 'malicious.com']",Lazarus Group,Web,North Korea,0.51,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware,16
+"['malwarehash123', 'trojan.com']",Anonymous,Network,North Korea,0.63,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS,39
+"['10.0.0.2', 'infected.exe']",Lazarus Group,Web,Russia,0.76,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS,22
+['123.456.78.9'],APT-28,Email,North Korea,0.76,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS,36
+"['192.168.1.1', 'malicious.com']",Unknown,Email,Russia,0.79,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware,44
+"['malicious.net', 'spam.exe']",Lazarus Group,Network,USA,0.88,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS,22
+"['malicious.net', 'spam.exe']",Lazarus Group,Email,Germany,0.81,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware,24
+"['malwarehash123', 'trojan.com']",APT-28,Network,North Korea,0.8,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing,18
+"['10.0.0.2', 'infected.exe']",APT-28,Network,Russia,0.53,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware,32
+"['192.168.1.1', 'malicious.com']",Lazarus Group,Email,Global,0.69,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing,45
+"['10.0.0.2', 'infected.exe']",Anonymous,Web,North Korea,0.62,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS,49
+"['192.168.1.1', 'malicious.com']",Lazarus Group,Email,USA,0.63,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing,12
+"['malwarehash123', 'trojan.com']",APT-28,Email,USA,0.78,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing,43
+"['malwarehash123', 'trojan.com']",Unknown,Network,Global,0.6,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware,28
+"['malicious.net', 'spam.exe']",Unknown,Network,Russia,0.65,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing,37
+"['10.0.0.2', 'infected.exe']",Anonymous,Network,North Korea,0.62,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware,32
+"['malicious.net', 'spam.exe']",Lazarus Group,Network,Russia,0.97,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing,49
+"['10.0.0.2', 'infected.exe']",Unknown,Web,USA,0.97,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing,16
+"['malicious.net', 'spam.exe']",Lazarus Group,Web,Russia,0.8,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing,21
+['123.456.78.9'],APT-28,Web,USA,0.96,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing,23
+['123.456.78.9'],Unknown,Network,Russia,0.89,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware,24
+['123.456.78.9'],Anonymous,Network,Global,0.79,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing,12
+['123.456.78.9'],APT-28,Network,Germany,0.5,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing,24
+"['192.168.1.1', 'malicious.com']",Anonymous,Web,Global,0.89,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware,33
+['123.456.78.9'],APT-28,Network,Global,0.85,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware,17
+"['malwarehash123', 'trojan.com']",Unknown,Email,Germany,0.81,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS,14
+"['malwarehash123', 'trojan.com']",Anonymous,Email,Germany,0.88,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing,13
+"['192.168.1.1', 'malicious.com']",Anonymous,Network,North Korea,0.76,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing,23
+['123.456.78.9'],APT-28,Email,North Korea,0.85,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing,25
+['123.456.78.9'],Anonymous,Email,Global,0.97,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing,29
+['123.456.78.9'],APT-28,Web,Global,0.69,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing,33
+"['malicious.net', 'spam.exe']",APT-28,Network,USA,0.85,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware,15
+"['10.0.0.2', 'infected.exe']",APT-28,Network,USA,0.74,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing,40
+"['malicious.net', 'spam.exe']",APT-28,Web,North Korea,0.84,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing,15
+"['10.0.0.2', 'infected.exe']",Unknown,Email,North Korea,0.88,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS,44
+['123.456.78.9'],APT-28,Email,USA,0.52,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware,24
+['123.456.78.9'],Lazarus Group,Network,USA,0.82,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing,38
+"['malicious.net', 'spam.exe']",Anonymous,Email,Russia,0.61,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing,12
+"['malicious.net', 'spam.exe']",Lazarus Group,Web,Russia,0.84,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware,20
+"['10.0.0.2', 'infected.exe']",Unknown,Web,USA,0.73,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware,12

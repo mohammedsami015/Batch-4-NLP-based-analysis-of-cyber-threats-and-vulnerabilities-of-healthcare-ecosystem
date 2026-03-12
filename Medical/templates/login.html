@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="page-center">
+  <div class="glass-card">
+    <h3 class="text-center">User Login</h3>
+
+    {% if messages %}
+        {% for msg in messages %}
+            <p class="text-warning">{{ msg }}</p>
+        {% endfor %}
+    {% endif %}
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <label>Username</label>
+        <input type="text" name="username" class="form-control" required>
+
+        <label>Password</label>
+        <input type="password" name="password" class="form-control" required>
+
+        <br>
+        <!-- Example: -->
+        <!-- <input class="form-control" type="text" name="username" placeholder="User Name"> -->
+        <!-- <input class="form-control" type="password" name="password" placeholder="Password"> -->
+        <!-- ... -->
+        <button type="submit" class="btn btn-gradient w-100">Login</button>
+    </form>
+
+    <p class="text-center mt-3">
+        Don’t have an account?  
+        <a href="{% url 'signup' %}" class="text-info">Register</a>
+    </p>
+</div>
+{% endblock %}

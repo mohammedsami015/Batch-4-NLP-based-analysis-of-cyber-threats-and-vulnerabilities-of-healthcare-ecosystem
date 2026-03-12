@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}Prediction{% endblock %}
+{% block content %}
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .prediction-container {
+        width: 95%;
+        margin: 40px auto;
+        padding: 25px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: white;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+    }
+
+    .prediction-title {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .prediction-sub {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #e2e2e2;
+    }
+
+    /* SCROLL + FULL TABLE FIX */
+    .scroll-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: auto;
+        max-height: 600px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1000px;
+    }
+
+    th {
+        background: #1e3c72;
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: white !important;
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+        white-space: nowrap;
+    }
+
+    td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+        white-space: nowrap;
+        color: black !important;      /* FIX: text now visible */
+        font-weight: 500;
+    }
+
+    tr:hover td {
+        background: #f3f6ff;
+    }
+
+    .btn-back {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        width: 230px;
+    }
+</style>
+
+<div class="prediction-container">
+
+    <h2 class="prediction-title">📊 Cyber Threat Prediction Results</h2>
+    <p class="prediction-sub">Your uploaded dataset has been analyzed successfully.</p>
+
+    <div class="scroll-wrapper">
+        <div class="prediction-table">
+            {{ table|safe }}
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="{% url 'upload_test_dataset' %}" class="btn btn-warning btn-back">
+            🔄 Upload Another File
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

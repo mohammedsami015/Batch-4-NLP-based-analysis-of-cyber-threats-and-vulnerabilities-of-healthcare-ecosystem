@@ -1,0 +1,24 @@
+/* index.css (global stylesheet) */
+/* ... existing CSS ... */
+
+/* Global page background */
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url('./assets/background1.jpeg'); /* keep this if the file is in /public */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #000; /* temporary to verify */
+}
+
+/* Optionally ensure your app’s root element fills the viewport (often needed in SPA setups) */
+#root, .app, main {
+  min-height: 100vh;
+  background: transparent; /* ensure body bg is visible */
+}
+
+/* ... existing CSS ... */

@@ -1,0 +1,17 @@
+Django==2.1.7
+scikit-learn
+imodels
+imbalanced-learn
+matplotlib
+pandas
+joblib
+pymysql
+tqdm
+numpy
+transformers
+torch
+scipy
+seaborn
+wordcloud
+nltk
+tensorflow

@@ -1,0 +1,11 @@
+/* ... existing CSS ... */
+
+/* Ensure this targets the correct container that shows the background */
+.hero, #home-hero {
+    background-image: url("c:\\Users\\admin\\Downloads\\Major project\\Medical_cyber_security -20260110T100220Z-1-001\\Medical_cyber_security\\assets\\images\\healthcare_cyber_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ... existing CSS ... */
