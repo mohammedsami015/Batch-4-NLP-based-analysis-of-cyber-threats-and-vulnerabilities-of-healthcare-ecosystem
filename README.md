@@ -160,3 +160,4 @@ You can follow either:
 
 Django itself is configured to use **SQLite** (`db.sqlite3`) in `Medical_cyber_security/settings.py`.  
 "# Major-Project-Batch-04" 
+"# Major-Project-Batch-04" 
